@@ -1,0 +1,811 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BEROEPSKWALIFICATIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "STUDIEDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "WETENSCHAPSDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-frans",
+      "prefLabel": "Frans",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-mondelinge-interactie",
+          "prefLabel": "mondelinge interactie",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-lezen",
+          "prefLabel": "lezen (Frans)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-luisteren",
+          "prefLabel": "luisteren (Frans)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-schrijven",
+          "prefLabel": "schrijven (Frans)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-fr-spreken",
+          "prefLabel": "spreken (Frans)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-levensbeschouwelijke-vakken",
+      "prefLabel": "levensbeschouwelijke vakken",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "anglicaanse",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-anglicaanse"
+            },
+            {
+              "prefLabel": "islamitische",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-islamitische"
+            },
+            {
+              "prefLabel": "israëlitische",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-israelitische"
+            },
+            {
+              "prefLabel": "orthodoxe",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-orthodoxe"
+            },
+            {
+              "prefLabel": "protestants-evangelische",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-protestants-evangelische"
+            },
+            {
+              "prefLabel": "rooms-katholieke",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-rooms-katholieke"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-godsdienst",
+          "prefLabel": "godsdienst"
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-niet-confessionele-zedenleer",
+          "prefLabel": "niet-confessionele zedenleer",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-lichamelijke-opvoeding",
+      "prefLabel": "lichamelijke opvoeding",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-lichamelijke-opvoeding",
+          "prefLabel": "lichamelijke opvoeding",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-brongebruik",
+          "prefLabel": "brongebruik",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "politieke en juridische verschijnselen",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-politieke-en-juridische-verschijnselen"
+            },
+            {
+              "prefLabel": "sociaal-culturele verschijnselen",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-sociaal-culturele-verschijnselen"
+            },
+            {
+              "prefLabel": "sociaal-economische verschijnselen",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-sociaal-economische-verschijnselen"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-maatschappij",
+          "prefLabel": "maatschappij"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "ik en de ander",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-ik-en-de-ander"
+            },
+            {
+              "prefLabel": "ik en de anderen in groep",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-ik-en-de-anderen-in-groep"
+            },
+            {
+              "prefLabel": "ik en mezelf",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-ik-en-mezelf"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-mens",
+          "prefLabel": "mens"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "algemene vaardigheden ruimte",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-algemene-vaardigheden-ruimte"
+            },
+            {
+              "prefLabel": "oriëntatie- en kaartvaardigheid",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-orientatie-en-kaartvaardigheid"
+            },
+            {
+              "prefLabel": "ruimtebeleving",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-ruimtebeleving"
+            },
+            {
+              "prefLabel": "verkeer en mobiliteit",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-verkeer-en-mobiliteit"
+            },
+            {
+              "altLabel": [
+                "ruimtelijke bepaaldheid"
+              ],
+              "prefLabel": "ruimtelijke ordening",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-ruimtelijke-ordening"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-ruimte",
+          "prefLabel": "ruimte"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "algemene vaardigheden tijd",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-algemene-vaardigheden-tijd"
+            },
+            {
+              "prefLabel": "dagelijkse tijd",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-dagelijkse-tijd"
+            },
+            {
+              "prefLabel": "historische tijd",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-historische-tijd"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-tijd",
+          "prefLabel": "tijd"
+        }
+      ],
+      "altLabel": [
+        "WO",
+        "wereldoriëntatie"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "prefLabel": "mens en maatschappij",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-mens-en-maatschappij"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-muzische-vorming",
+      "prefLabel": "muzische vorming",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-beeld",
+          "prefLabel": "beeld",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-beweging",
+          "prefLabel": "beweging",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-drama",
+          "prefLabel": "drama",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-media",
+          "prefLabel": "media",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-muziek",
+          "prefLabel": "muziek",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-nederlands",
+      "prefLabel": "Nederlands",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-culturele-gerichtheid",
+          "prefLabel": "culturele gerichtheid",
+          "altLabel": [
+            "interculturele gerichtheid"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-lezen",
+          "prefLabel": "lezen (Nederlands)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-luisteren",
+          "prefLabel": "luisteren (Nederlands)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-schrijven",
+          "prefLabel": "schrijven (Nederlands)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-spreken",
+          "prefLabel": "spreken (Nederlands)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-strategieen",
+          "prefLabel": "strategieën",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-taalbeschouwing",
+          "prefLabel": "taalbeschouwing",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "algemene vaardigheden",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-algemene-vaardigheden"
+            },
+            {
+              "prefLabel": "gezondheid",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-gezondheid"
+            },
+            {
+              "prefLabel": "levende en niet-levende natuur",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-levende-en-niet-levende-natuur"
+            },
+            {
+              "prefLabel": "milieu",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-milieu"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-natuur",
+          "prefLabel": "natuur"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "kerncomponenten van techniek",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-kerncomponenten-van-techniek"
+            },
+            {
+              "prefLabel": "techniek als menselijke activiteit",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-techniek-als-menselijke-activiteit"
+            },
+            {
+              "prefLabel": "techniek en samenleving",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-techniek-en-samenleving"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-techniek",
+          "prefLabel": "techniek"
+        }
+      ],
+      "altLabel": [
+        "WO",
+        "wereldoriëntatie"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "prefLabel": "wetenschap en techniek",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-wetenschap-en-techniek"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-wiskunde",
+      "prefLabel": "wiskunde",
+      "altLabel": [
+        "rekenen"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-getallen",
+          "prefLabel": "getallen",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-meetkunde",
+          "prefLabel": "meetkunde",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-meten",
+          "prefLabel": "meten",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-stratprobv",
+          "prefLabel": "strategieën en probleemoplossende vaardigheden",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "ICT",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-ict"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-ict",
+          "prefLabel": "ICT"
+        }
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "prefLabel": "ICT",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-ict"
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "leren leren",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-leren-leren"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-leren-leren",
+          "prefLabel": "leren leren"
+        }
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "prefLabel": "leren leren",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-leren-leren"
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "sociale vaardigheden",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-sociale-vaardigheden"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-sociale-vaardigheden",
+          "prefLabel": "sociale vaardigheden"
+        }
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "prefLabel": "sociale vaardigheden",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-sociale-vaardigheden"
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+            "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "extracurriculair",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+                "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/curr2/t-extra-curriculair"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr2/s-extra-curriculair",
+          "prefLabel": "extracurriculair"
+        }
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
+        "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+      ],
+      "prefLabel": "extracurriculair",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr2/l-extra-curriculair"
+    }
+  ]
+}

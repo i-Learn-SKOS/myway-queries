@@ -1,0 +1,41 @@
+# In: ID, a concept in the collection onderwijsniveaus
+# Result: curriculum-collections connected to the concept, its broader (transitive) concepts or its narrower (transitive) concepts
+{
+  id(_:ID) @single
+  ... conceptFields
+  # direct
+  hasCurriculum @optional {
+    id @single
+    ... collectionFields
+  }
+  broaderTransitive @optional {
+    id @single
+    ... conceptFields
+    # indirect (via concept higher in the hierarchy)
+    hasCurriculum {
+      id @single
+      ... collectionFields
+    }
+  }
+  narrowerTransitive @optional {
+    id @single
+    ... conceptFields
+    # indirect (via concept lower in the hierarchy)
+    hasCurriculum {
+      id @single
+      ... collectionFields
+    }
+  }
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+  memberOf @optional
+}
+
+fragment collectionFields on Collection {
+  prefLabel @single
+  altLabel @optional
+}

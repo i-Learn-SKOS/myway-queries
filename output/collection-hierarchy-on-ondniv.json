@@ -1,0 +1,378 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BEROEPSKWALIFICATIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "STUDIEDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "WETENSCHAPSDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis",
+      "topConceptOf": "http://ilearn.ilabt.imec.be/vocab/ondniv/_scheme",
+      "prefLabel": "basisonderwijs",
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-kleuter",
+          "prefLabel": "kleuteronderwijs",
+          "narrower": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-kleuter-3j",
+              "prefLabel": "3 jaar of jonger",
+              "altLabel": [
+                "drie jaar of jonger"
+              ]
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-kleuter-4j",
+              "prefLabel": "4 jaar",
+              "altLabel": [
+                "vier jaar"
+              ]
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-kleuter-5j",
+              "prefLabel": "5 jaar",
+              "altLabel": [
+                "vijf jaar"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager",
+          "prefLabel": "lager onderwijs",
+          "narrower": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager-lj1",
+              "prefLabel": "1ste leerjaar",
+              "altLabel": [
+                "1e leerjaar",
+                "eerste leerjaar"
+              ]
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager-lj2",
+              "prefLabel": "2e leerjaar",
+              "altLabel": [
+                "tweede leerjaar"
+              ]
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager-lj3",
+              "prefLabel": "3e leerjaar",
+              "altLabel": [
+                "derde leerjaar"
+              ]
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager-lj4",
+              "prefLabel": "4e leerjaar",
+              "altLabel": [
+                "vierde leerjaar"
+              ]
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager-lj5",
+              "prefLabel": "5e leerjaar",
+              "altLabel": [
+                "vijfde leerjaar"
+              ]
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-lager-lj6",
+              "prefLabel": "6e leerjaar",
+              "altLabel": [
+                "zesde leerjaar"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1",
+          "prefLabel": "1ste graad",
+          "altLabel": [
+            "1e graad",
+            "eerste graad"
+          ],
+          "narrower": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-astroom",
+              "prefLabel": "a-stroom"
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-bstroom",
+              "prefLabel": "b-stroom"
+            }
+          ]
+        },
+        {
+          "altLabel": [
+            "tweede graad"
+          ],
+          "narrower": [
+            {
+              "altLabel": [
+                "arbeidsmarktfinaliteit"
+              ],
+              "prefLabel": "finaliteit arbeidsmarkt",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-arbeidsmarkt-bso",
+                  "prefLabel": "bso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-arbeidsmarkt"
+            },
+            {
+              "altLabel": [
+                "doorstroomfinaliteit"
+              ],
+              "prefLabel": "finaliteit doorstroom",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom-aso",
+                  "prefLabel": "aso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom-kso",
+                  "prefLabel": "kso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom-tso",
+                  "prefLabel": "tso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            },
+            {
+              "prefLabel": "dubbele finaliteit",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-dubbel-kso",
+                  "prefLabel": "kso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-dubbel-tso",
+                  "prefLabel": "tso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-dubbel"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2",
+          "prefLabel": "2e graad"
+        },
+        {
+          "narrower": [
+            {
+              "prefLabel": "finaliteit arbeidsmarkt",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-arbeidsmarkt-bso",
+                  "prefLabel": "bso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-arbeidsmarkt"
+            },
+            {
+              "prefLabel": "finaliteit doorstroom",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-doorstroom-aso",
+                  "prefLabel": "aso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-doorstroom-kso",
+                  "prefLabel": "kso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-doorstroom-tso",
+                  "prefLabel": "tso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-doorstroom"
+            },
+            {
+              "prefLabel": "dubbele finaliteit",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-dubbel-kso",
+                  "prefLabel": "kso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-dubbel-tso",
+                  "prefLabel": "tso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-dubbel"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3",
+          "prefLabel": "3e graad"
+        },
+        {
+          "altLabel": [
+            "derde graad, derde leerjaar"
+          ],
+          "narrower": [
+            {
+              "prefLabel": "finaliteit arbeidsmarkt",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt-bso",
+                  "prefLabel": "bso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt-kso",
+                  "prefLabel": "kso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt-tso",
+                  "prefLabel": "tso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt"
+            },
+            {
+              "prefLabel": "finaliteit doorstroom",
+              "narrower": [
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-doorstroom-aso",
+                  "prefLabel": "aso"
+                },
+                {
+                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-doorstroom-kso",
+                  "prefLabel": "kso"
+                }
+              ],
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-doorstroom"
+            }
+          ],
+          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3",
+          "prefLabel": "3e graad - 3e leerjaar"
+        }
+      ],
+      "topConceptOf": "http://ilearn.ilabt.imec.be/vocab/ondniv/_scheme",
+      "prefLabel": "secundair onderwijs",
+      "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec"
+    }
+  ]
+}

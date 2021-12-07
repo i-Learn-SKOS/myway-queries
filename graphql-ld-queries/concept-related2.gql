@@ -1,0 +1,22 @@
+# In: ID1, a first concept
+#     ID2, a second concept
+#     COLLECTION: a collection; related concepts must be member of this collection
+# Result: concepts related to both given concepts and member of a given collection
+# This query is very suitable to list onderwijsdoelen related to a bouwsteen (ID1) and the applicable broader sleutelcompetentie (ID2)
+{
+  id (_:ID1)
+  ... conceptFields
+  related @optional {
+    memberOf (_:COLLECTION)
+    related (_:ID2)
+    id @single
+    ... conceptFields
+  }
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+  memberOf @optional
+}

@@ -1,0 +1,300 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BEROEPSKWALIFICATIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "STUDIEDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "WETENSCHAPSDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-andere-talen",
+      "prefLabel": "andere talen",
+      "altLabel": [
+        "competenties in andere talen"
+      ],
+      "definition": "3. Competenties in andere talen",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-burgerschap-en-samenleven",
+      "prefLabel": "burgerschap en samenleven",
+      "definition": "7. Burgerschapscompetenties met inbegrip van competenties inzake samenleven",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-cultureel-bewustzijn-en-culturele-expressie",
+      "prefLabel": "cultureel bewustzijn en culturele expressie",
+      "definition": "16. Cultureel bewustzijn en culturele expressie",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-digitale-competenties-en-mediawijsheid",
+      "prefLabel": "digitale competenties en mediawijsheid",
+      "definition": "4. Digitale competentie en mediawijsheid",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-duurzaamheid",
+      "prefLabel": "duurzaamheid",
+      "definition": "10. Competenties inzake duurzaamheid",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-economisch-financiele-competenties",
+      "prefLabel": "economisch-financiële competenties",
+      "definition": "11. Economische en financiële competenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-historisch-bewustzijn",
+      "prefLabel": "historisch bewustzijn",
+      "altLabel": [
+        "geschiedenis"
+      ],
+      "definition": "8. Competenties met betrekking tot historisch bewustzijn",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-juridische-competenties",
+      "prefLabel": "juridische competenties",
+      "definition": "12. Juridische competenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-leercompetenties",
+      "prefLabel": "leercompetenties",
+      "definition": "13. Leercompetenties met inbegrip van onderzoekscompetenties, innovatiedenken, creativiteit, probleemoplossend en kritisch denken, systeemdenken, informatieverwerking en samenwerken",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-lichamelijk-geestelijk-en-emotioneel-welzijn",
+      "prefLabel": "lichamelijk, geestelijk en emotioneel welzijn",
+      "altLabel": [
+        "lichamelijke en geestelijke gezondheid"
+      ],
+      "definition": "1. Competenties op het vlak van lichamelijk, geestelijk en emotioneel bewustzijn/gezondheid",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-nederlands",
+      "prefLabel": "Nederlands",
+      "definition": "2. Competenties in het Nederlands",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ondernemingszin",
+      "prefLabel": "ondernemingszin",
+      "altLabel": [
+        "ondernemen"
+      ],
+      "definition": "15. Ontwikkeling van initiatief, ambitie, ondernemingszin en loopbaancompetenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-religie-en-levensbeschouwing",
+      "prefLabel": "religie en levenbeschouwing",
+      "definition": "Competenties betreffende religie en levensbeschouwing",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ruimtelijk-bewustzijn",
+      "prefLabel": "ruimtelijk bewustzijn",
+      "altLabel": [
+        "aardrijkskunde"
+      ],
+      "definition": "9. Competenties met betrekking tot ruimtelijk bewustzijn",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-sociaal-relationele-vorming",
+      "prefLabel": "sociaal-relationele vorming",
+      "definition": "5. Sociaal-relationele competenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-stem",
+      "prefLabel": "STEM (sleutelcompetentie)",
+      "altLabel": [
+        "wetenschappen, technologie, engineering, wiskunde"
+      ],
+      "definition": "6. Competenties inzake wiskunde, exacte wetenschappen en technologie",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-zelfbewustzijn",
+      "prefLabel": "zelfbewustzijn",
+      "altLabel": [
+        "zelfexpressie",
+        "zelfsturing",
+        "zelfwendbaarheid"
+      ],
+      "definition": "14. Zelfbewustzijn en zelfexpressie, zelfsturing en wendbaarheid",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    }
+  ]
+}

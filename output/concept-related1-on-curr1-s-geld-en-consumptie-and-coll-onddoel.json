@@ -1,0 +1,710 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BEROEPSKWALIFICATIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "STUDIEDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "WETENSCHAPSDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "prefLabel": "geld en consumptie",
+      "definition": "Inzicht ontwikkelen in consumptiegedrag, inkomensverwerving en financiële producten om budgettaire gevolgen op korte en lange termijn in te schatten.",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-11.1",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen beoordelen de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen ontleden een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen maken budgettaire keuzes voor zichzelf rekening houdend met een eigen budget en een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.1",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-bg-11.1",
+          "definition": "BG 11.1 De leerling verklaart zijn keuzegedrag bij aankopen rekening houdend met zijn behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.2",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-bg-11.2",
+          "definition": "BG 11.2 De leerling licht de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.3",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-bg-11.3",
+          "definition": "BG 11.3 De leerling maakt budgettaire keuzes voor zichzelf rekening houdend met een eigen budget en een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.1",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.2",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen beoordelen de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.3",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-11.3",
+          "definition": "11.3 De leerlingen ontleden een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-duurzaamheid-11.1",
+          "prefLabel": "sec-gr1-bstroom-duurzaamheid-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr1-bstroom-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr1-bstroom-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen beoordelen de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr1-bstroom-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen schetsen inkomsten en uitgaven binnen een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr1-bstroom-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen maken budgettaire keuzes voor zichzelf rekening houdend met een eigen budget en een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-bg-11.1",
+          "prefLabel": "sec-gr1-bstroom-economisch-financiele-competenties-bg-11.1",
+          "definition": "BG 11.1 De leerling verklaart zijn keuzegedrag bij aankopen rekening houdend met zijn behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-bg-11.2",
+          "prefLabel": "sec-gr1-bstroom-economisch-financiele-competenties-bg-11.2",
+          "definition": "BG 11.2 De leerling licht de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-bg-11.3",
+          "prefLabel": "sec-gr1-bstroom-economisch-financiele-competenties-bg-11.3",
+          "definition": "BG 11.3 De leerling maakt budgettaire keuzes voor zichzelf rekening houdend met een eigen budget en een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-juridische-competenties-11.1",
+          "prefLabel": "sec-gr1-bstroom-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-juridische-competenties-11.2",
+          "prefLabel": "sec-gr1-bstroom-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen beoordelen de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-juridische-competenties-11.3",
+          "prefLabel": "sec-gr1-bstroom-juridische-competenties-11.3",
+          "definition": "11.3 De leerlingen schetsen inkomsten en uitgaven binnen een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete studentenovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen lichten de elementen van de totale kost van aankopen met inbegrip van bijkomende kosten toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen maken budgettaire keuzes bij aankopen in functie van een persoonlijk budget en rekening houdend met een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen bespreken elementen van een schadegeval aan de hand van een schadeaangifte bij de verzekeringsmaatschappij.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.1",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete studentenovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.2",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen lichten de elementen van de totale kost van aankopen met inbegrip van bijkomende kosten toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.4",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.4",
+          "definition": "11.4 De leerlingen bespreken elementen van een schadegeval aan de hand van een schadeaangifte bij de verzekeringsmaatschappij.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen onderzoeken elementen van het arbeidsrecht aan de hand van een concrete arbeidsovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen analyseren de totale kost van aankopen inclusief eenmalige kosten, terugkerende kosten en financieringskosten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen maken budgettaire keuzes bij aankopen in functie van een persoonlijk budget en rekening houdend met een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen analyseren een schadegeval in functie van een schadeaangifte bij de verzekeringsmaatschappij.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.1",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen onderzoeken elementen van het arbeidsrecht aan de hand van een concrete arbeidsovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.2",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen analyseren de totale kost van aankopen inclusief eenmalige kosten, terugkerende kosten en financieringskosten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.4",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.4",
+          "definition": "11.4 De leerlingen analyseren een schadegeval in functie van een schadeaangifte bij de verzekeringsmaatschappij.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete studentenovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen analyseren de totale kost van aankopen inclusief eenmalige kosten, terugkerende kosten en financieringskosten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen maken budgettaire keuzes bij aankopen in functie van een persoonlijk budget en rekening houdend met een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen bespreken een schadegeval in functie van een schadeaangifte bij de verzekeringsmaatschappij.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-juridische-competenties-11.1",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete studentenovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-juridische-competenties-11.2",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen analyseren de totale kost van aankopen inclusief eenmalige kosten, terugkerende kosten en financieringskosten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-juridische-competenties-11.4",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-juridische-competenties-11.4",
+          "definition": "11.4 De leerlingen bespreken een schadegeval in functie van een schadeaangifte bij de verzekeringsmaatschappij.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete arbeidsovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen bespreken elementen van het huurrecht aan de hand van een concrete huurovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen lichten aspecten van een hypothecaire lening toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen stellen een gezinsbudget op met behulp van een aangereikt sjabloon.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.5",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.5",
+          "definition": "11.5 De leerlingen lichten risico's van spaar- en beleggingsvormen toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.6",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.6",
+          "definition": "11.6 De leerlingen lichten juridische en financieel-economische gevolgen van meerderjarigheid toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.1",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete arbeidsovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.2",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen bespreken elementen van het huurrecht aan de hand van een concrete huurovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.3",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.3",
+          "definition": "11.3 De leerlingen lichten aspecten van een hypothecaire lening toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.6",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.6",
+          "definition": "11.6 De leerlingen lichten juridische en financieel-economische gevolgen van meerderjarigheid toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen ontleden elementen van het huurrecht aan de hand van een concrete huurovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen lichten de financiering van de aankoop van een onroerend goed toe met inbegrip van eenmalige kosten en terugkerende kosten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen stellen een gezinsbudget op.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen vergelijken spaar- en beleggingsvormen op het vlak van risico, beschikbaarheid en rendement.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.5",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.5",
+          "definition": "11.5 De leerlingen lichten juridische en financieel-economische gevolgen van meerderjarigheid toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.1",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen ontleden elementen van het huurrecht aan de hand van een concrete huurovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.2",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen lichten de financiering van de aankoop van een onroerend goed toe met inbegrip van eenmalige kosten en terugkerende kosten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.3",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.3",
+          "definition": "11.3 De leerlingen stellen een gezinsbudget op.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.5",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.5",
+          "definition": "11.5 De leerlingen lichten juridische en financieel-economische gevolgen van meerderjarigheid toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete arbeidsovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen bespreken elementen van het huurrecht aan de hand van een concrete huurovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen lichten aspecten van een hypothecaire lening toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen stellen een gezinsbudget op.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.5",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.5",
+          "definition": "11.5 De leerlingen vergelijken spaar- en beleggingsvormen op het vlak van risico, beschikbaarheid en rendement.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.6",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.6",
+          "definition": "11.6 De leerlingen lichten juridische en financieel-economische gevolgen van meerderjarigheid toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.1",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen bespreken elementen van het arbeidsrecht aan de hand van een concrete arbeidsovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.2",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen bespreken elementen van het huurrecht aan de hand van een concrete huurovereenkomst.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.3",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-juridische-competenties-11.3",
+          "definition": "11.3 De leerlingen lichten aspecten van een hypothecaire lening toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.6",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-juridische-competenties-11.6",
+          "definition": "11.6 De leerlingen lichten juridische en financieel-economische gevolgen van meerderjarigheid toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        }
+      ]
+    }
+  ]
+}

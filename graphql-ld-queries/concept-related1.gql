@@ -1,0 +1,20 @@
+# In: ID, a concept
+#     COLLECTION: a collection; related concepts must be member of this collection
+# Result: concepts related to the given concept and member of a given collection
+# This query is very suitable to list vakken related to a concept
+{
+  id (_:ID)
+  ... conceptFields
+  related @optional {
+    memberOf (_:COLLECTION)
+    id @single
+    ... conceptFields
+  }
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+  memberOf @optional
+}

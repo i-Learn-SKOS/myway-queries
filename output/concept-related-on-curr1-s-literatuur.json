@@ -1,0 +1,336 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BEROEPSKWALIFICATIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "STUDIEDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "WETENSCHAPSDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "prefLabel": "literatuur (Nederlands)",
+      "definition": "Literatuur in het Nederlands beleven.",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-digitale-competenties-en-mediawijsheid",
+          "prefLabel": "digitale competenties en mediawijsheid",
+          "definition": "4. Digitale competentie en mediawijsheid",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-leercompetenties",
+          "prefLabel": "leercompetenties",
+          "definition": "13. Leercompetenties met inbegrip van onderzoekscompetenties, innovatiedenken, creativiteit, probleemoplossend en kritisch denken, systeemdenken, informatieverwerking en samenwerken",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ondernemingszin",
+          "prefLabel": "ondernemingszin",
+          "altLabel": [
+            "ondernemen"
+          ],
+          "definition": "15. Ontwikkeling van initiatief, ambitie, ondernemingszin en loopbaancompetenties",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-sociaal-relationele-vorming",
+          "prefLabel": "sociaal-relationele vorming",
+          "definition": "5. Sociaal-relationele competenties",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/vak1/communicatie",
+          "prefLabel": "communicatie",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/vakken",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/vak1/communicatiewetenschappen",
+          "prefLabel": "communicatiewetenschappen",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/vakken",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/vak1/nederlands",
+          "prefLabel": "Nederlands",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/vakken",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/vak1/nederlands-voor-nieuwkomers",
+          "prefLabel": "Nederlands voor nieuwkomers",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/vakken",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/vak1/project-algemene-vakken",
+          "prefLabel": "project algemene vakken",
+          "altLabel": [
+            "PAV"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/vakken",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.13",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.13",
+          "definition": "2.13 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.14",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.14",
+          "definition": "UD 2.14 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-nederlands-2.12",
+          "prefLabel": "sec-gr1-bstroom-nederlands-2.12",
+          "definition": "2.12 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-nederlands-ud-2.13",
+          "prefLabel": "sec-gr1-bstroom-nederlands-ud-2.13",
+          "definition": "UD 2.13 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-nederlands-2.15",
+          "prefLabel": "sec-gr2-arbeidsmarkt-bso-nederlands-2.15",
+          "definition": "2.15 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen, beluisteren en bekijken van literaire teksten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-nederlands-2.17",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-nederlands-2.17",
+          "definition": "2.17 De leerlingen analyseren hoe in literaire teksten betekenissen worden gecreëerd met behulp van narratieve, retorische, poëticale en theatrale structuren en technieken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-nederlands-2.18",
+          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-nederlands-2.18",
+          "definition": "2.18 De leerlingen treden in interactie over de relevantie van literaire teksten voor hun leefwereld, voor de samenleving waarin ze leven en voor de samenleving waarin de teksten ontstonden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-nederlands-2.15",
+          "prefLabel": "sec-gr2-dubbel-kso-tso-nederlands-2.15",
+          "definition": "2.15 De leerlingen verwoorden hun gedachten, gevoelens en beleving bij het lezen, beluisteren en bekijken van literaire teksten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-nederlands-2.15",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-nederlands-2.15",
+          "definition": "2.15 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen, beluisteren en bekijken van literaire teksten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-nederlands-2.16",
+          "prefLabel": "sec-gr3-arbeidsmarkt-bso-nederlands-2.16",
+          "definition": "2.16 De leerlingen treden in mondelinge interactie over de relevantie van literaire teksten voor hun leefwereld.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-nederlands-2.16",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-nederlands-2.16",
+          "definition": "2.16 De leerlingen verwoorden hun gedachten, gevoelens en beleving bij het lezen, beluisteren en bekijken van literaire teksten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-nederlands-2.17",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-nederlands-2.17",
+          "definition": "2.17 De leerlingen analyseren hoe in literaire teksten betekenissen worden gecreëerd met behulp van narratieve, retorische, poëticale en theatrale structuren en technieken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-nederlands-2.18",
+          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-nederlands-2.18",
+          "definition": "2.18 De leerlingen treden in interactie over de relevantie van literaire teksten voor hun leefwereld, voor de samenleving waarin ze leven en voor de samenleving waarin de teksten ontstonden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-nederlands-2.16",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-nederlands-2.16",
+          "definition": "2.16 De leerlingen verwoorden hun gedachten, gevoelens en beleving bij het lezen, beluisteren en bekijken van literaire teksten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-nederlands-2.17",
+          "prefLabel": "sec-gr3-dubbel-kso-tso-nederlands-2.17",
+          "definition": "2.17 De leerlingen treden in interactie over de relevantie van literaire teksten voor hun leefwereld, voor de samenleving waarin ze leven en voor de samenleving waarin de teksten ontstonden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        }
+      ]
+    }
+  ]
+}

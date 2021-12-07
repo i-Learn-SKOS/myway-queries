@@ -1,0 +1,17 @@
+# In: ID, a concept
+# Result: concepts related to the given concept
+{
+  id (_:ID)
+  ... conceptFields
+  related @optional {
+    id @single
+    ... conceptFields
+  }
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+  memberOf @optional
+}

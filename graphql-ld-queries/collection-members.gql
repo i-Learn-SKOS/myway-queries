@@ -1,0 +1,15 @@
+# In: ID, a collection
+# Result: concepts in the collection
+{
+  memberOf(_:ID)
+  id @single
+  ... conceptFields
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+  memberOf @optional
+}
+

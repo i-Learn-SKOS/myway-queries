@@ -1,0 +1,39 @@
+# In: ID, a concept in the collection onderwijsniveaus
+# Result: onderwijsdoelen related to the concept, its broader (transitive) concepts or its narrower (transitive) concepts
+{
+  id(_:ID) @single
+  ... conceptFields
+  # direct
+  related @optional {
+    memberOf(_:ONDERWIJSDOELEN)
+    id @single
+    ... conceptFields
+  }
+  broaderTransitive @optional {
+    id @single
+    ... conceptFields
+    # indirect (via concept higher in the hierarchy)
+    related {
+      memberOf(_:ONDERWIJSDOELEN)
+      id @single
+      ... conceptFields
+    }
+  }
+  narrowerTransitive @optional {
+    id @single
+    ... conceptFields
+    # indirect (via concept lower in the hierarchy)
+    related {
+      memberOf(_:ONDERWIJSDOELEN)
+      id @single
+      ... conceptFields
+    }
+  }
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+  memberOf @optional
+}

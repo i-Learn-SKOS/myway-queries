@@ -1,0 +1,41 @@
+# In: CONCEPT, a concept
+# In: COLLECTION, a collection
+# Result: the concept + their narrower concepts in the same collection. In other words: a hierarchy below a specific concept within a collection.
+{
+  memberOf(_:COLLECTION)
+  # level 1
+  id (_:CONCEPT) @single
+  ... conceptFields
+  narrower @optional {
+    memberOf(_:COLLECTION)
+    # level 2
+    id @single
+    ... conceptFields
+    narrower @optional {
+      memberOf(_:COLLECTION)
+      # level 3
+      id @single
+      ... conceptFields
+      narrower @optional {
+        memberOf(_:COLLECTION)
+        # level 4
+        id @single
+        ... conceptFields
+        narrower @optional {
+          memberOf(_:COLLECTION)
+          # level 5 (is enough for all known collections)
+          id @single
+          ... conceptFields
+        }
+      }
+    }
+  }
+  
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+}
+

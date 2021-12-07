@@ -1,0 +1,2140 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BEROEPSKWALIFICATIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "STUDIEDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "WETENSCHAPSDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "prefLabel": "a-stroom",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+      ],
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.1",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.1",
+          "definition": "3.1 De leerlingen zijn gemotiveerd voor taal m.i.v. cultuur, lezen, spreken, schrijven, luisteren en inzicht in het taalsysteem.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.10",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.10",
+          "definition": "3.10 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.2",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.2",
+          "definition": "3.2 De leerlingen bepalen het onderwerp en de globale inhoud van geschreven en gesproken teksten in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.3",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.3",
+          "definition": "3.3 De leerlingen bepalen wat de hoofdgedachte en de hoofdpunten zijn in geschreven en gesproken teksten in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.4",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.4",
+          "definition": "3.4 De leerlingen selecteren relevante informatie in geschreven en gesproken teksten in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.5",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.5",
+          "definition": "3.5 De leerlingen produceren schriftelijke en mondelinge teksten in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.6",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.6",
+          "definition": "3.6 De leerlingen nemen deel aan schriftelijke en mondelinge interactie in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.7",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.7",
+          "definition": "3.7 De leerlingen gebruiken het inzicht in de belangrijkste regels en kenmerken van vreemde talen als taalsystemen ter ondersteuning van hun communicatieve handelingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.8",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.8",
+          "definition": "3.8 De leerlingen gebruiken kenmerken, mogelijkheden en principes van vreemde talen als communicatiemiddelen in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.9",
+          "prefLabel": "sec-gr1-astroom-andere-talen-3.9",
+          "definition": "3.9 De leerlingen tonen interesse in culturele contexten waarin vreemde talen worden gebruikt.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.1",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.1",
+          "definition": "7.1 De leerlingen lichten de gelaagdheid en de dynamiek van identiteiten en de mogelijke gevolgen ervan voor relaties met anderen toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.10",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.10",
+          "definition": "7.10 De leerlingen onderscheiden inspraak, participatie en besluitvorming in schoolse situaties, rekening houdend met de rechten en plichten van iedereen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.11",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.11",
+          "definition": "7.11 De leerlingen handelen duurzaam in een schoolse context.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.12",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.12",
+          "definition": "7.12 De leerlingen lichten de complexiteit en verwevenheid van duurzaamheidskwesties toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.13",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.13",
+          "definition": "7.13 De leerlingen verklaren de impact van globale uitdagingen van duurzame ontwikkeling op het lokale niveau.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.14",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.14",
+          "definition": "7.14 De leerlingen illustreren wederzijdse beïnvloeding tussen maatschappelijke domeinen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.15",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.15",
+          "definition": "7.15 De leerlingen lichten wijzen van vertegenwoordiging, deelname aan macht en democratische besluitvorming toe voor zover deze relevant zijn voor hun eigen leefwereld.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.16",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.16",
+          "definition": "7.16 De leerlingen komen op voor de eerbiediging van de rechten van de mens en het kind en voor sociale rechtvaardigheid, voor zover het relevant is voor hun eigen leefwereld.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.17",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.17",
+          "definition": "7.17 De leerlingen lichten het belang van mensen- en kinderrechten toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.18",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.18",
+          "definition": "7.18 De leerlingen onderscheiden het samenleven in een democratie van het samenleven onder andere regimes.\n\nZe appreciëren het samenleven in een democratie en de principes waarop ze in Vlaanderen gebaseerd is.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.2",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.2",
+          "definition": "7.2 De leerlingen gaan respectvol en constructief om met individuen en groepen in een diverse samenleving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.3",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.3",
+          "definition": "7.3 De leerlingen hanteren strategieën om respectvol en constructief om te gaan met individuen en groepen in een diverse samenleving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.4",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.4",
+          "definition": "7.4 De leerlingen lichten de mechanismen van vooroordelen, stereotypering, machtsmisbruik en groepsdruk toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.5",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.5",
+          "definition": "7.5 De leerlingen hanteren strategieën om tot constructieve oplossingen voor conflictsituaties te komen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.6",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.6",
+          "definition": "7.6 De leerlingen onderscheiden zowel onverdraagzaamheid als discriminatie in de samenleving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.7",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.7",
+          "definition": "7.7 De leerlingen onderbouwen een eigen mening over maatschappelijke gebeurtenissen, thema’s en trends met betrouwbare informatie en geldige argumenten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.8",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.8",
+          "definition": "7.8 De leerlingen participeren actief in schoolse situaties, rekening houdend met de rechten en plichten van iedereen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.9",
+          "prefLabel": "sec-gr1-astroom-burgerschap-en-samenleven-7.9",
+          "definition": "7.9 De leerlingen illustreren het belang van individuele en gezamenlijke acties en engagement voor de samenleving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.1",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.1",
+          "definition": "16.1 De leerlingen erkennen het belang van waargenomen kunst- en cultuuruitingen voor zichzelf en hun eigen leefwereld.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.10",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.10",
+          "definition": "16.10 De leerlingen reflecteren aan de hand van aangereikte criteria over hun artistiek product en proces en over dat van medeleerlingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.2",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.2",
+          "definition": "16.2 De leerlingen onderscheiden via waarnemingen van kunst- en cultuuruitingen het zintuiglijk waarneembare, de bedoelingen en het onderwerp ervan.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.3",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.3",
+          "definition": "16.3 De leerlingen beschrijven aan de hand van aangereikte criteria de interactie tussen het zintuiglijk waarneembare, de bedoelingen en het onderwerp van kunst- en cultuuruitingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.4",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.4",
+          "definition": "16.4 De leerlingen brengen kunst- en cultuuruitingen in verband met de context waarin deze voorkomen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.5",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.5",
+          "definition": "16.5 De leerlingen drukken hun gedachten en gevoelens uit bij het waarnemen van kunst- en cultuuruitingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.6",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.6",
+          "definition": "16.6 De leerlingen wenden hun eigen expressieve ervaring aan om hun waardering voor kunst en cultuuruitingen uit te drukken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.7",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.7",
+          "definition": "16.7 De leerlingen creëren artistiek werk vanuit een afgebakende opdracht en de eigen verbeelding.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.8",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.8",
+          "definition": "16.8 De leerlingen experimenteren met diverse artistieke bouwstenen zoals taal, lichaam, ruimte, tijd, vorm, kleur, klank, digitale data.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.9",
+          "prefLabel": "sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.9",
+          "definition": "16.9 De leerlingen tonen hun artistiek werk aan de hand van elementaire presentatietechnieken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.1",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.1",
+          "definition": "4.1 De leerlingen demonstreren basisvaardigheden om digitaal inhouden te creëren en te delen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.2",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.2",
+          "definition": "4.2 De leerlingen demonstreren basisvaardigheden om digitaal samen te werken, te communiceren en te participeren aan initiatieven.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.3",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.3",
+          "definition": "4.3 De leerlingen onderscheiden  bouwstenen van digitale systemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.4",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.4",
+          "definition": "4.4 De leerlingen passen een eenvoudig zelf ontworpen algoritme toe om een probleem digitaal en niet-digitaal op te lossen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.5",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.5",
+          "definition": "4.5 De leerlingen lichten de invloed van digitale en niet-digitale media op mens en samenleving toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.6",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.6",
+          "definition": "4.6 De leerlingen passen aangereikte regels van de digitale wereld toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.7",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.7",
+          "definition": "4.7 De leerlingen evalueren de mogelijkheden en risico’s van eigen en andermans mediagedrag.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.1",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.1",
+          "definition": "BG 4.1 De leerling demonstreert in functionele contexten basisvaardigheden om digitaal inhouden te creëren en te delen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.2",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.2",
+          "definition": "BG 4.2 De leerling demonstreert in functionele contexten basisvaardigheden om digitaal te communiceren en te participeren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.3",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.3",
+          "definition": "BG 4.3 De leerling herkent in functionele contexten bouwstenen van digitale systemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.4",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.4",
+          "definition": "BG 4.4 De leerling past in functionele contexten een aangereikt algoritme toe om een probleem digitaal en niet-digitaal op te lossen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.5",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.5",
+          "definition": "BG 4.5 De leerling past in functionele contexten aangereikte regels van de digitale wereld toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.6",
+          "prefLabel": "sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.6",
+          "definition": "BG 4.6 De leerling evalueert in functionele contexten de mogelijkheden en risico’s van eigen mediagedrag.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-11.1",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-15.4",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-15.4",
+          "definition": "15.4 De leerlingen maken onderbouwde keuzes aan de hand van aangereikte criteria en aangereikte strategieën.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.37",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-6.37",
+          "definition": "6.37 De leerlingen gebruiken courante technische systemen duurzaam, veilig en ergonomisch.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.38",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-6.38",
+          "definition": "6.38 De leerlingen voeren een iteratief technisch proces uit in de verschillende ervaringsgebieden om een eenvoudig technisch systeem te realiseren vanuit behoefte(n) en criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.41",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-6.41",
+          "definition": "6.41 De leerlingen realiseren het technisch systeem op basis van een ontwerp.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.50",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-6.50",
+          "definition": "6.50 De leerlingen beargumenteren keuzes die ze maken om een wiskundig, natuurwetenschappelijk, technologisch of STEM-probleem op te lossen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-7.11",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-7.11",
+          "definition": "7.11 De leerlingen handelen duurzaam in een schoolse context.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-7.12",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-7.12",
+          "definition": "7.12 De leerlingen lichten de complexiteit en verwevenheid van duurzaamheidskwesties toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-9.6",
+          "prefLabel": "sec-gr1-astroom-duurzaamheid-9.6",
+          "definition": "9.6 De leerlingen onderzoeken ruimtelijke effecten van veranderingen in landschappen op de mens en zijn leefomgeving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.1",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.2",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.2",
+          "definition": "11.2 De leerlingen beoordelen de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.3",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.3",
+          "definition": "11.3 De leerlingen ontleden een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.4",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.4",
+          "definition": "11.4 De leerlingen maken budgettaire keuzes voor zichzelf rekening houdend met een eigen budget en een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.5",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.5",
+          "definition": "11.5 De leerlingen lichten activiteiten toe in verschillende soorten ondernemingen en organisaties in de eigen leefomgeving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.6",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.6",
+          "definition": "11.6 De leerlingen lichten de impact van beslissingen van ondernemingen en organisaties toe op de omgeving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.7",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-11.7",
+          "definition": "11.7 De leerlingen lichten toe hoe de overheid via inkomsten en uitgaven impact heeft op de samenleving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.1",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-bg-11.1",
+          "definition": "BG 11.1 De leerling verklaart zijn keuzegedrag bij aankopen rekening houdend met zijn behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.2",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-bg-11.2",
+          "definition": "BG 11.2 De leerling licht de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.3",
+          "prefLabel": "sec-gr1-astroom-economisch-financiele-competenties-bg-11.3",
+          "definition": "BG 11.3 De leerling maakt budgettaire keuzes voor zichzelf rekening houdend met een eigen budget en een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.1",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.1",
+          "definition": "8.1 De leerlingen onderbouwen een historisch referentiekader met structuurbegrippen, scharnierpunten en kenmerken van een periode.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.2",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.2",
+          "definition": "8.2 De leerlingen onderscheiden voor elk van de drie bestudeerde historische periodes kenmerken van samenlevingen evenals gelijkenissen en verschillen in kenmerken tussen samenlevingen uit elk van de verschillende periodes.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.3",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.3",
+          "definition": "8.3 De leerlingen illustreren beperkingen van de westerse periodisering.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.4",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.4",
+          "definition": "8.4 De leerlingen evalueren de context, betrouwbaarheid, representativiteit en bruikbaarheid van historische bronnen in het licht van een historische vraag.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.5",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.5",
+          "definition": "8.5 De leerlingen onderscheiden informatie in historische bronnen met inbegrip van gelijkenissen en verschillen hierin tussen historische bronnen, in het licht van een historische vraag en rekening houdend met reflectie over bronnen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.6",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.6",
+          "definition": "8.6 De leerlingen vullen aan de hand van historische bronnen en vanuit een historische vraag op beargumenteerde wijze historische beeldvorming aan.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.7",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.7",
+          "definition": "8.7 De leerlingen beoordelen een historische redenering met behulp van de dimensies van het referentiekader.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.8",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.8",
+          "definition": "8.8 De leerlingen lichten binnen een gegeven probleemstelling de invloed van hun eigen standplaatsgebondenheid en die van anderen op historische beeldvorming toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.9",
+          "prefLabel": "sec-gr1-astroom-historisch-bewustzijn-8.9",
+          "definition": "8.9 De leerlingen illustreren hoe mythevorming rond historische fenomenen historische beeldvorming vervormt.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.1",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-11.1",
+          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.2",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-11.2",
+          "definition": "11.2 De leerlingen beoordelen de veiligheid, risico's en kosten verbonden aan het gebruik van betaalmiddelen en verkoopkanalen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.3",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-11.3",
+          "definition": "11.3 De leerlingen ontleden een gezinsbudget.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.7",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-11.7",
+          "definition": "11.7 De leerlingen lichten toe hoe de overheid via inkomsten en uitgaven impact heeft op de samenleving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.10",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-7.10",
+          "definition": "7.10 De leerlingen onderscheiden inspraak, participatie en besluitvorming in schoolse situaties, rekening houdend met de rechten en plichten van iedereen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.16",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-7.16",
+          "definition": "7.16 De leerlingen komen op voor de eerbiediging van de rechten van de mens en het kind en voor sociale rechtvaardigheid, voor zover het relevant is voor hun eigen leefwereld.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.17",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-7.17",
+          "definition": "7.17 De leerlingen lichten het belang van mensen- en kinderrechten toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.18",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-7.18",
+          "definition": "7.18 De leerlingen onderscheiden het samenleven in een democratie van het samenleven onder andere regimes.\n\nZe appreciëren het samenleven in een democratie en de principes waarop ze in Vlaanderen gebaseerd is.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.8",
+          "prefLabel": "sec-gr1-astroom-juridische-competenties-7.8",
+          "definition": "7.8 De leerlingen participeren actief in schoolse situaties, rekening houdend met de rechten en plichten van iedereen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.1",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.1",
+          "definition": "13.1 De leerlingen beoordelen zowel het belang van een opdracht voor zichzelf als lerende als de relatie tussen de eigen en de vereiste competenties voor de uitvoering van de opdracht.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.10",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.10",
+          "definition": "13.10 De leerlingen formuleren een hypothese in functie van een onderzoeksvraag aan de hand van aangereikte criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.11",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.11",
+          "definition": "13.11 De leerlingen voeren stapsgewijs een onderzoekstechniek uit om digitale en niet-digitale gegevens te verwerven i.f.v. een onderzoeksvraag.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.12",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.12",
+          "definition": "13.12 De leerlingen voeren een oplossingsstrategie systematisch uit i.f.v. een onderzoek of een probleem.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.13",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.13",
+          "definition": "13.13 De leerlingen formuleren een antwoord op een onderzoeksvraag of hypothese aan de hand van aangereikte richtlijnen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.14",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.14",
+          "definition": "13.14 De leerlingen beoordelen hun leerproces en -resultaat op afgesproken momenten en aan de hand van aangereikte criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.15",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.15",
+          "definition": "13.15 De leerlingen analyseren sterktes en zwaktes van hun leerresultaat en hun doorlopen leerproces aan de hand van richtvragen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.16",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.16",
+          "definition": "13.16 De leerlingen reguleren hun leeropvattingen, hun leerproces en hun leerresultaat a.d.h.v. een werkwijze en strategieën.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.17",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.17",
+          "definition": "13.17 De leerlingen passen vaardigheden van samen leren toe om een leerdoel te realiseren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.18",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.18",
+          "definition": "13.18 De leerlingen gebruiken schooltaal en domeinspecifieke taal in functie van het leerproces.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.2",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.2",
+          "definition": "13.2 De leerlingen reflecteren aan de hand van richtvragen over de impact van de eigen en andermans leeropvattingen en -strategieën op de uitvoering van een opdracht.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.3",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.3",
+          "definition": "13.3 De leerlingen hanteren een geschikte zoekstrategie uit een aantal aangereikte bij het selecteren van digitale en niet-digitale bronnen en informatie om een aangereikte informatievraag te beantwoorden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.4",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.4",
+          "definition": "13.4 De leerlingen gebruiken verklarende en oriënterende  overzichten om informatie in een digitale en niet-digitale bron terug te vinden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.5",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.5",
+          "definition": "13.5 De leerlingen beoordelen aan de hand van aangereikte richtvragen de geselecteerde digitale en niet-digitale bronnen en informatie op bruikbaarheid, correctheid en betrouwbaarheid.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.6",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.6",
+          "definition": "13.6 De leerlingen verwerken digitale en niet-digitale informatie uit één of een beperkt aantal bronnen volgens een aangereikt stappenplan tot een samenhangend en bruikbaar geheel.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.7",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.7",
+          "definition": "13.7 De leerlingen stellen verwerkte informatie voor volgens een aangereikte digitale en niet-digitale presentatiemethode.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.8",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.8",
+          "definition": "13.8 De leerlingen beheren informatie digitaal en niet-digitaal volgens een aangereikte structuur.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.9",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-13.9",
+          "definition": "13.9 De leerlingen formuleren voor een afgebakend probleem een onderzoeksvraag aan de hand van aangereikte criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.1",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-bg-13.1",
+          "definition": "BG 13.1 De leerling hanteert in functionele contexten een aangereikte zoekstrategie bij het selecteren van digitale bronnen en informatie om een aangereikte informatievraag te beantwoorden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.2",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-bg-13.2",
+          "definition": "BG 13.2 De leerling beoordeelt in functionele contexten en aan de hand van aangereikte richtvragen de geselecteerde digitale bronnen en informatie op bruikbaarheid, correctheid en betrouwbaarheid.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.3",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-bg-13.3",
+          "definition": "BG 13.3 De leerling verwerkt in functionele contexten digitale informatie uit één of een beperkt aantal bronnen om een antwoord te geven op een informatievraag.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.4",
+          "prefLabel": "sec-gr1-astroom-leercompetenties-bg-13.4",
+          "definition": "BG 13.4 De leerling beheert in functionele contexten informatie digitaal volgens een aangereikte structuur.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.1",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.1",
+          "definition": "1.1 De leerlingen verklaren het belang van een gezonde levensstijl.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.10",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.10",
+          "definition": "1.10 De leerlingen passen basis tactieken toe in verschillende spelvormen en binnen elke groep van sporten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.11",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.11",
+          "definition": "1.11 De leerlingen aanvaarden winst en verlies in beweging en sport.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.12",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.12",
+          "definition": "1.12 De leerlingen hanteren principes van fairplay en teamspirit met nadruk op plezier in beweging en sport.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.13",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.13",
+          "definition": "1.13 De leerlingen verplaatsen zich veilig als voetganger en fietser in het verkeer in het kader van schoolse activiteiten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.14",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.14",
+          "definition": "1.14 De leerlingen handelen veilig in een schoolse context.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.15",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.15",
+          "definition": "1.15 De leerlingen verwoorden met behulp van richtvragen welke gebeurtenissen hen zelfvertrouwen geven en welke gebeurtenissen hen onzeker maken in het kader van hun welbevinden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.16",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.16",
+          "definition": "1.16 De leerlingen uiten hun gevoelens respectvol.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.17",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.17",
+          "definition": "1.17 De leerlingen benoemen met behulp van richtvragen bij een gebeurtenis hun gedachten, gevoelens en gedrag en de gevolgen van die gebeurtenis voor zichzelf.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.18",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.18",
+          "definition": "1.18 De leerlingen zoeken hulp in het geval van intra- en interpersoonlijke problemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.19",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.19",
+          "definition": "1.19 De leerlingen geven aan waar ze hulp kunnen vinden in geval van intra- en  interpersoonlijke problemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.2",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.2",
+          "definition": "1.2 De leerlingen stellen gezondheidsbevorderend gedrag binnen de schoolse context vanuit inzicht in het belang van preventie en mogelijke risicofactoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.3",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.3",
+          "definition": "1.3 De leerlingen passen technieken voor een correcte lichaamshouding en voor ergonomische principes toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.4",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.4",
+          "definition": "1.4 De leerlingen lichten de technieken voor eerste hulp bij ongevallen en noodsituaties toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.5",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.5",
+          "definition": "1.5 De leerlingen passen technieken voor eerste hulp bij ongevallen in een gesimuleerde leeromgeving toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.6",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.6",
+          "definition": "1.6 De leerlingen onderscheiden effecten van mogelijke verslavende middelen en handelingen op zichzelf en hun directe omgeving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.7",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.7",
+          "definition": "1.7 De leerlingen verklaren mentale en lichamelijke ontwikkelingen binnen de puberteit.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.8",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.8",
+          "definition": "1.8 De leerlingen beschrijven hoe om te gaan met relationele en seksuele gezondheid en integriteit.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.9",
+          "prefLabel": "sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.9",
+          "definition": "1.9 De leerlingen voeren, conform de bewegingsnorm en rekening houdend met hun eigen fysieke capaciteiten, op veilige wijze bewegingen en activiteiten uit in verschillende omgevingen met nadruk op plezier in beweging en sport.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.1",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.1",
+          "definition": "2.1 De leerlingen zijn gemotiveerd voor taal m.i.v. cultuur, lezen, spreken, schrijven, luisteren en inzicht in het taalsysteem.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.10",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.10",
+          "definition": "2.10 De leerlingen gebruiken kenmerken, mogelijkheden en principes van het Standaardnederlands als communicatiemiddel in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.11",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.11",
+          "definition": "2.11 De leerlingen gaan respectvol om met overeenkomsten en verschillen in taaluitingen, taalvariëteiten en talen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.12",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.12",
+          "definition": "2.12 De leerlingen onderscheiden overeenkomsten en verschillen in taaluitingen, taalvariëteiten en talen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.13",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.13",
+          "definition": "2.13 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.2",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.2",
+          "definition": "2.2 De leerlingen bepalen het onderwerp en de globale inhoud van geschreven en gesproken teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.3",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.3",
+          "definition": "2.3 De leerlingen bepalen wat de hoofdgedachte en de hoofdpunten zijn in geschreven en gesproken teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.4",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.4",
+          "definition": "2.4 De leerlingen selecteren relevante informatie in geschreven en gesproken teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.5",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.5",
+          "definition": "2.5 De leerlingen nemen eenvoudige notities bij het lezen en beluisteren van teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.6",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.6",
+          "definition": "2.6 De leerlingen produceren schriftelijke en mondelinge teksten in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.7",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.7",
+          "definition": "2.7 De leerlingen drukken zich op een creatieve manier uit.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.8",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.8",
+          "definition": "2.8 De leerlingen nemen deel aan schriftelijke en mondelinge interactie in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.9",
+          "prefLabel": "sec-gr1-astroom-nederlands-2.9",
+          "definition": "2.9 De leerlingen gebruiken het inzicht in de belangrijkste regels en kenmerken van het Standaardnederlands als taalsysteem ter ondersteuning van hun communicatieve handelingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-bg-2.1",
+          "prefLabel": "sec-gr1-astroom-nederlands-bg-2.1",
+          "definition": "BG 2.1 De leerling haalt het onderwerp en relevante informatie uit geschreven en gesproken niet-fictionele teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-bg-2.2",
+          "prefLabel": "sec-gr1-astroom-nederlands-bg-2.2",
+          "definition": "BG 2.2 De leerling produceert schriftelijke en mondelinge teksten in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-bg-2.3",
+          "prefLabel": "sec-gr1-astroom-nederlands-bg-2.3",
+          "definition": "BG 2.3 De leerling neemt deel aan mondelinge en schriftelijke interactie in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.1",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.1",
+          "definition": "UD 2.1 De leerlingen zijn gemotiveerd voor taal m.i.v. cultuur, lezen, spreken, schrijven, luisteren en inzicht in het taalsysteem.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.10",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.10",
+          "definition": "UD 2.10 De leerlingen analyseren het Standaardnederlands als taalsysteem.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.11",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.11",
+          "definition": "UD 2.11 De leerlingen gebruiken kenmerken, mogelijkheden en principes van het Standaardnederlands als communicatiemiddel in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.12",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.12",
+          "definition": "UD 2.12 De leerlingen gaan respectvol om met overeenkomsten en verschillen in taaluitingen, taalvariëteiten en talen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.13",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.13",
+          "definition": "UD 2.13 De leerlingen onderscheiden overeenkomsten en verschillen in taaluitingen, taalvariëteiten en talen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.14",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.14",
+          "definition": "UD 2.14 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.2",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.2",
+          "definition": "UD 2.2 De leerlingen bepalen het onderwerp en de globale inhoud van geschreven en gesproken teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.3",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.3",
+          "definition": "UD 2.3 De leerlingen bepalen wat de hoofdgedachte en de hoofdpunten zijn in geschreven en gesproken teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.4",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.4",
+          "definition": "UD 2.4 De leerlingen selecteren relevante informatie in geschreven en gesproken teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.5",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.5",
+          "definition": "UD 2.5 De leerlingen nemen eenvoudige notities bij het lezen en beluisteren van teksten in functie van doelgerichte informatieverwerking en communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.6",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.6",
+          "definition": "UD 2.6 De leerlingen produceren schriftelijke en mondelinge teksten in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.7",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.7",
+          "definition": "UD 2.7 De leerlingen drukken zich op een creatieve manier uit.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.8",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.8",
+          "definition": "UD 2.8 De leerlingen nemen deel aan schriftelijke en mondelinge interactie in functie van doelgerichte communicatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.9",
+          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.9",
+          "definition": "UD 2.9 De leerlingen gebruiken het inzicht in de belangrijkste regels en kenmerken van het Standaardnederlands als taalsysteem ter ondersteuning van hun communicatieve handelingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.1",
+          "prefLabel": "sec-gr1-astroom-ondernemingszin-15.1",
+          "definition": "15.1 De leerlingen genereren ideeën voor een uitdaging aan de hand van aangereikte technieken en methodieken en in een gestructureerd en afgebakend kader.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.2",
+          "prefLabel": "sec-gr1-astroom-ondernemingszin-15.2",
+          "definition": "15.2 De leerlingen onderzoeken de uitvoerbaarheid van ideeën rekening houdend met aangereikte criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.3",
+          "prefLabel": "sec-gr1-astroom-ondernemingszin-15.3",
+          "definition": "15.3 De leerlingen werken stapsgewijs een zelfgekozen idee uit door het doelmatig inzetten van tijd en hulpmiddelen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.4",
+          "prefLabel": "sec-gr1-astroom-ondernemingszin-15.4",
+          "definition": "15.4 De leerlingen maken onderbouwde keuzes aan de hand van aangereikte criteria en aangereikte strategieën.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.1",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.1",
+          "definition": "9.1 De leerlingen situeren personen, plaatsen en patronen op relevante ruimtelijke schaalniveaus.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.2",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.2",
+          "definition": "9.2 De leerlingen beschrijven kenmerken van landschapsvormende lagen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.3",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.3",
+          "definition": "9.3 De leerlingen onderzoeken relaties tussen landschapsvormende lagen van plaatsen om verschillen tussen landschappen te verklaren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.4",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.4",
+          "definition": "9.4 De leerlingen karakteriseren ruimtelijke patronen op verschillende schaalniveaus.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.5",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.5",
+          "definition": "9.5 De leerlingen illustreren dat landschappen evolueren onder invloed van fysisch- en sociaal-geografische veranderingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.6",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.6",
+          "definition": "9.6 De leerlingen onderzoeken ruimtelijke effecten van veranderingen in landschappen op de mens en zijn leefomgeving.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.7",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.7",
+          "definition": "9.7 De leerlingen lokaliseren zichzelf en plaatsen met behulp van lokalisatie- en oriëntatietechnieken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.8",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.8",
+          "definition": "9.8 De leerlingen gebruiken terreintechnieken en geografische hulpbronnen om landschappen te onderzoeken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.9",
+          "prefLabel": "sec-gr1-astroom-ruimtelijk-bewustzijn-9.9",
+          "definition": "9.9 De leerlingen hanteren GIS-viewers om thematische lagen van een plaats en hun onderlinge relaties te onderzoeken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.1",
+          "prefLabel": "sec-gr1-astroom-sociaal-relationele-vorming-5.1",
+          "definition": "5.1 De leerlingen bewaken in interacties hun eigen fysieke en mentale grenzen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.2",
+          "prefLabel": "sec-gr1-astroom-sociaal-relationele-vorming-5.2",
+          "definition": "5.2 De leerlingen houden in interacties rekening met de opvattingen, fysieke en mentale grenzen en emoties van anderen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.3",
+          "prefLabel": "sec-gr1-astroom-sociaal-relationele-vorming-5.3",
+          "definition": "5.3 De leerlingen demonstreren hoe ze respectvol reageren tegen pest- en uitsluitingsgedrag.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.4",
+          "prefLabel": "sec-gr1-astroom-sociaal-relationele-vorming-5.4",
+          "definition": "5.4 De leerlingen demonstreren in informele en formele relaties geschikte sociale vaardigheden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.5",
+          "prefLabel": "sec-gr1-astroom-sociaal-relationele-vorming-5.5",
+          "definition": "5.5 De leerlingen dragen in groepsactiviteiten met een welomschreven opdracht actief bij aan de uitwerking van een gezamenlijk resultaat.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.1",
+          "prefLabel": "sec-gr1-astroom-stem-6.1",
+          "definition": "6.1 De leerlingen voeren bewerkingen uit met natuurlijke, gehele en rationale getallen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.10",
+          "prefLabel": "sec-gr1-astroom-stem-6.10",
+          "definition": "6.10 De leerlingen bepalen punten in het vlak door middel van coördinaten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.11",
+          "prefLabel": "sec-gr1-astroom-stem-6.11",
+          "definition": "6.11 De leerlingen rekenen met lettervormen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.12",
+          "prefLabel": "sec-gr1-astroom-stem-6.12",
+          "definition": "6.12 De leerlingen gebruiken letters als onbekenden, als variabelen en voor veralgemeningen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.13",
+          "prefLabel": "sec-gr1-astroom-stem-6.13",
+          "definition": "6.13 De leerlingen analyseren recht- en omgekeerd evenredige verbanden tussen grootheden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.14",
+          "prefLabel": "sec-gr1-astroom-stem-6.14",
+          "definition": "6.14 De leerlingen stellen formules op die de regelmaat in eenvoudige patronen en schema’s beschrijven.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.15",
+          "prefLabel": "sec-gr1-astroom-stem-6.15",
+          "definition": "6.15 De leerlingen lossen vergelijkingen van de eerste graad op met één onbekende in de verzameling van de rationale getallen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.16",
+          "prefLabel": "sec-gr1-astroom-stem-6.16",
+          "definition": "6.16 De leerlingen voeren een beschrijvend statistisch onderzoek uit met 20 à 25 zelf verzamelde, niet gegroepeerde gegevens van 1 grootheid.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.17",
+          "prefLabel": "sec-gr1-astroom-stem-6.17",
+          "definition": "6.17 De leerlingen geven een wiskundige redenering of een argumentatie van wiskundige eigenschappen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.18",
+          "prefLabel": "sec-gr1-astroom-stem-6.18",
+          "definition": "6.18 De leerlingen voeren operaties met twee verzamelingen uit.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.19",
+          "prefLabel": "sec-gr1-astroom-stem-6.19",
+          "definition": "6.19 De leerlingen lossen wiskundige problemen op door gebruik te maken van wiskundige kennis, vaardigheden en heuristieken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.2",
+          "prefLabel": "sec-gr1-astroom-stem-6.2",
+          "definition": "6.2 De leerlingen gebruiken de eigenschappen, teken- en rekenregels van de bewerkingen om bewerkingen met natuurlijke, gehele en rationale getallen uit te voeren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.20",
+          "prefLabel": "sec-gr1-astroom-stem-6.20",
+          "definition": "6.20 De leerlingen brengen waarneembare fysische verschijnselen in verband met temperatuursveranderingen op basis van het deeltjesmodel.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.21",
+          "prefLabel": "sec-gr1-astroom-stem-6.21",
+          "definition": "6.21 De leerlingen onderscheiden zuivere stoffen en mengsels in authentieke contexten en op basis van het deeltjesmodel.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.22",
+          "prefLabel": "sec-gr1-astroom-stem-6.22",
+          "definition": "6.22 De leerlingen lichten het onderscheid tussen een verandering van aggregatietoestand en een waarneembare chemische omzetting toe.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.23",
+          "prefLabel": "sec-gr1-astroom-stem-6.23",
+          "definition": "6.23 De leerlingen analyseren energieomzettingen in levende en niet-levende systemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.24",
+          "prefLabel": "sec-gr1-astroom-stem-6.24",
+          "definition": "6.24 De leerlingen leiden de uitwerking van krachten af uit authentieke contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.25",
+          "prefLabel": "sec-gr1-astroom-stem-6.25",
+          "definition": "6.25 De leerlingen onderzoeken het verband tussen snelheid, afstand en tijd.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.26",
+          "prefLabel": "sec-gr1-astroom-stem-6.26",
+          "definition": "6.26 De leerlingen leggen de verschillende transportmogelijkheden van thermische energie uit in authentieke contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.27",
+          "prefLabel": "sec-gr1-astroom-stem-6.27",
+          "definition": "6.27 De leerlingen leggen de effecten van verschillende soorten stralingen uit in authentieke contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.28",
+          "prefLabel": "sec-gr1-astroom-stem-6.28",
+          "definition": "6.28 De leerlingen leggen de samenhang tussen de verschillende organisatieniveaus in een organisme uit met de cel als basiseenheid.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.29",
+          "prefLabel": "sec-gr1-astroom-stem-6.29",
+          "definition": "6.29 De leerlingen leggen uit hoe stofomzettingen, stofuitwisselingen en energieomzettingen het functioneren van mens en dieren mogelijk maken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.3",
+          "prefLabel": "sec-gr1-astroom-stem-6.3",
+          "definition": "6.3 De leerlingen ordenen natuurlijke, gehele en rationale getallen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.30",
+          "prefLabel": "sec-gr1-astroom-stem-6.30",
+          "definition": "6.30 De leerlingen leggen het verloop van de voortplanting bij de mens uit.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.31",
+          "prefLabel": "sec-gr1-astroom-stem-6.31",
+          "definition": "6.31 De leerlingen vergelijken voortplantingswijzen van planten en dieren aan de hand van voorbeelden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.32",
+          "prefLabel": "sec-gr1-astroom-stem-6.32",
+          "definition": "6.32 De leerlingen leggen het belang van fotosynthese uit inclusief de stofomzettingen, energieomzettingen en stofuitwisselingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.33",
+          "prefLabel": "sec-gr1-astroom-stem-6.33",
+          "definition": "6.33 De leerlingen leggen uit dat organismen met bepaalde kenmerken, in een welbepaalde omgeving, meer waarschijnlijk dan andere organismen zullen overleven en zich voortplanten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.34",
+          "prefLabel": "sec-gr1-astroom-stem-6.34",
+          "definition": "6.34 De leerlingen onderzoeken voor een biotoop de onderlinge afhankelijkheid van verschillende organismen en de rol van biotische en abiotische factoren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.35",
+          "prefLabel": "sec-gr1-astroom-stem-6.35",
+          "definition": "6.35 De leerlingen onderzoeken waarneembare eigenschappen van courante materialen en grondstoffen i.f.v. een technisch proces.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.36",
+          "prefLabel": "sec-gr1-astroom-stem-6.36",
+          "definition": "6.36 De leerlingen onderzoeken principes van de bouw en werking van technische systemen, hun deelsystemen en onderdelen alsook hun onderlinge samenhang  i.f.v. een technisch proces.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.37",
+          "prefLabel": "sec-gr1-astroom-stem-6.37",
+          "definition": "6.37 De leerlingen gebruiken courante technische systemen duurzaam, veilig en ergonomisch.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.38",
+          "prefLabel": "sec-gr1-astroom-stem-6.38",
+          "definition": "6.38 De leerlingen voeren een iteratief technisch proces uit in de verschillende ervaringsgebieden om een eenvoudig technisch systeem te realiseren vanuit behoefte(n) en criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.39",
+          "prefLabel": "sec-gr1-astroom-stem-6.39",
+          "definition": "6.39 De leerlingen bepalen de vereisten waaraan een technisch systeem moet voldoen om een technisch probleem op te lossen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.4",
+          "prefLabel": "sec-gr1-astroom-stem-6.4",
+          "definition": "6.4 De leerlingen passen benaderings-, afrondings- en schattingstechnieken toe bij het rekenen met getallen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.40",
+          "prefLabel": "sec-gr1-astroom-stem-6.40",
+          "definition": "6.40 De leerlingen ontwerpen een technisch systeem in functie van de bepaalde vereisten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.41",
+          "prefLabel": "sec-gr1-astroom-stem-6.41",
+          "definition": "6.41 De leerlingen realiseren het technisch systeem op basis van een ontwerp.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.42",
+          "prefLabel": "sec-gr1-astroom-stem-6.42",
+          "definition": "6.42 De leerlingen testen of een technisch systeem voldoet aan de behoeften en criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.43",
+          "prefLabel": "sec-gr1-astroom-stem-6.43",
+          "definition": "6.43 De leerlingen gebruiken met de nodige nauwkeurigheid de gepaste meetinstrumenten, meetmethoden en hulpmiddelen om metingen, observaties, experimenten en terreinstudies uit te voeren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.44",
+          "prefLabel": "sec-gr1-astroom-stem-6.44",
+          "definition": "6.44 De leerlingen gebruiken in wiskundige, natuurwetenschappelijke, technologische en STEM-contexten gepaste grootheden en eenheden in een correcte weergave.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.45",
+          "prefLabel": "sec-gr1-astroom-stem-6.45",
+          "definition": "6.45 De leerlingen trekken conclusies op basis van grafieken, tabellen, determineertabellen en diagrammen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.46",
+          "prefLabel": "sec-gr1-astroom-stem-6.46",
+          "definition": "6.46 De leerlingen gebruiken aangereikte en zelf ontwikkelde modellen in wiskundige, natuurwetenschappelijke, technologische en STEM contexten om te visualiseren, te beschrijven en te verklaren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.47",
+          "prefLabel": "sec-gr1-astroom-stem-6.47",
+          "definition": "6.47 De leerlingen passen stapsgewijs de wetenschappelijke methode toe om een probleem te onderzoeken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.48",
+          "prefLabel": "sec-gr1-astroom-stem-6.48",
+          "definition": "6.48 De leerlingen doorlopen een probleemoplossend proces waarbij kennis en vaardigheden uit meerdere STEM-disciplines geïntegreerd worden aangewend.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.49",
+          "prefLabel": "sec-gr1-astroom-stem-6.49",
+          "definition": "6.49 De leerlingen illustreren de wisselwerking tussen STEM-disciplines onderling en met de maatschappij.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.5",
+          "prefLabel": "sec-gr1-astroom-stem-6.5",
+          "definition": "6.5 De leerlingen analyseren meetkundige relaties en eigenschappen van meetkundige objecten in het vlak.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.50",
+          "prefLabel": "sec-gr1-astroom-stem-6.50",
+          "definition": "6.50 De leerlingen beargumenteren keuzes die ze maken om een wiskundig, natuurwetenschappelijk, technologisch of STEM-probleem op te lossen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.51",
+          "prefLabel": "sec-gr1-astroom-stem-6.51",
+          "definition": "6.51 De leerlingen relateren verschillende STEM-beroepen en -opleidingen aan natuurlijkwetenschappelijke, technologische, wiskundige en STEM-competenties.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.6",
+          "prefLabel": "sec-gr1-astroom-stem-6.6",
+          "definition": "6.6 De leerlingen onderscheiden aan de hand van 2D- en 3D-voorstellingen meetkundige objecten in de ruimte.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.7",
+          "prefLabel": "sec-gr1-astroom-stem-6.7",
+          "definition": "6.7 De leerlingen stellen meetkundige objecten met gegeven eigenschappen in het vlak grafisch voor.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.8",
+          "prefLabel": "sec-gr1-astroom-stem-6.8",
+          "definition": "6.8 De leerlingen verklaren het beeld van een vlakke figuur als resultaat van een verschuiving, spiegeling of rotatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.9",
+          "prefLabel": "sec-gr1-astroom-stem-6.9",
+          "definition": "6.9 De leerlingen berekenen omtrek en oppervlakte van vlakke figuren en oppervlakte en inhoud van ruimtefiguren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.1",
+          "prefLabel": "sec-gr1-astroom-stem-bg-6.1",
+          "definition": "BG 6.1 De leerling voert met behulp van ICT bewerkingen uit in functionele contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.2",
+          "prefLabel": "sec-gr1-astroom-stem-bg-6.2",
+          "definition": "BG 6.2 De leerling gebruikt informatie uit eenvoudige tabellen in functionele contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.3",
+          "prefLabel": "sec-gr1-astroom-stem-bg-6.3",
+          "definition": "BG 6.3 De leerling gebruikt maatgetallen en eenheden van grootheden in functionele contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.4",
+          "prefLabel": "sec-gr1-astroom-stem-bg-6.4",
+          "definition": "BG 6.4 De leerling herkent meetkundige objecten en meetkundige relaties in  functionele contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.5",
+          "prefLabel": "sec-gr1-astroom-stem-bg-6.5",
+          "definition": "BG 6.5 De leerling berekent omtrek en oppervlakte van een rechthoek in functionele contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.6",
+          "prefLabel": "sec-gr1-astroom-stem-bg-6.6",
+          "definition": "BG 6.6 De leerling gebruikt wiskundige verhoudingen in functionele contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.7",
+          "prefLabel": "sec-gr1-astroom-stem-bg-6.7",
+          "definition": "BG 6.7 De leerling haalt informatie uit diagrammen in functionele contexten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.15",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-1.15",
+          "definition": "1.15 De leerlingen verwoorden met behulp van richtvragen welke gebeurtenissen hen zelfvertrouwen geven en welke gebeurtenissen hen onzeker maken in het kader van hun welbevinden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.16",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-1.16",
+          "definition": "1.16 De leerlingen uiten hun gevoelens respectvol.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.17",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-1.17",
+          "definition": "1.17 De leerlingen benoemen met behulp van richtvragen bij een gebeurtenis hun gedachten, gevoelens en gedrag en de gevolgen van die gebeurtenis voor zichzelf.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.18",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-1.18",
+          "definition": "1.18 De leerlingen zoeken hulp in het geval van intra- en interpersoonlijke problemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.19",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-1.19",
+          "definition": "1.19 De leerlingen geven aan waar ze hulp kunnen vinden in geval van intra- en  interpersoonlijke problemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.1",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-13.1",
+          "definition": "13.1 De leerlingen beoordelen zowel het belang van een opdracht voor zichzelf als lerende als de relatie tussen de eigen en de vereiste competenties voor de uitvoering van de opdracht.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.14",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-13.14",
+          "definition": "13.14 De leerlingen beoordelen hun leerproces en -resultaat op afgesproken momenten en aan de hand van aangereikte criteria.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.15",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-13.15",
+          "definition": "13.15 De leerlingen analyseren sterktes en zwaktes van hun leerresultaat en hun doorlopen leerproces aan de hand van richtvragen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.16",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-13.16",
+          "definition": "13.16 De leerlingen reguleren hun leeropvattingen, hun leerproces en hun leerresultaat a.d.h.v. een werkwijze en strategieën.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.2",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-13.2",
+          "definition": "13.2 De leerlingen reflecteren aan de hand van richtvragen over de impact van de eigen en andermans leeropvattingen en -strategieën op de uitvoering van een opdracht.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.10",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-16.10",
+          "definition": "16.10 De leerlingen reflecteren aan de hand van aangereikte criteria over hun artistiek product en proces en over dat van medeleerlingen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.7",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-16.7",
+          "definition": "16.7 De leerlingen creëren artistiek werk vanuit een afgebakende opdracht en de eigen verbeelding.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.8",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-16.8",
+          "definition": "16.8 De leerlingen experimenteren met diverse artistieke bouwstenen zoals taal, lichaam, ruimte, tijd, vorm, kleur, klank, digitale data.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.9",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-16.9",
+          "definition": "16.9 De leerlingen tonen hun artistiek werk aan de hand van elementaire presentatietechnieken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-5.1",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-5.1",
+          "definition": "5.1 De leerlingen bewaken in interacties hun eigen fysieke en mentale grenzen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-5.4",
+          "prefLabel": "sec-gr1-astroom-zelfbewustzijn-5.4",
+          "definition": "5.4 De leerlingen demonstreren in informele en formele relaties geschikte sociale vaardigheden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+# Result: collections
+{
+  TYPE(_:Collection)
+  id @single
+  ... collectionFields
+}
+
+fragment collectionFields on Collection {
+  prefLabel @single
+  altLabel @optional
+}
+

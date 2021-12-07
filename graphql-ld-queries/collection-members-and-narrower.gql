@@ -1,0 +1,36 @@
+# In: ID, a collection
+# Result: concepts in the collection + their narrower concepts (in any collection).
+{
+  memberOf(_:ID)
+  # level 1
+  id @single
+  ... conceptFields
+  narrower @optional {
+    # level 2
+    id @single
+    ... conceptFields
+    narrower @optional {
+      # level 3
+      id @single
+      ... conceptFields
+      narrower @optional {
+        # level 4
+        id @single
+        ... conceptFields
+        narrower @optional {
+          # level 5 (is enough for all known collections)
+          id @single
+          ... conceptFields
+        }
+      }
+    }
+  }
+}
+
+fragment conceptFields on Concept {
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+  memberOf @optional
+}
+

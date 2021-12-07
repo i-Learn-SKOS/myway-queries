@@ -1,0 +1,1119 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BEROEPSKWALIFICATIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "STUDIEDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "WETENSCHAPSDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "narrower": [
+        {
+          "altLabel": [
+            "communicatievaardigheden (andere talen)",
+            "communicatieve vaardigheden (andere talen)"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Vreemde talen receptief, productief en interactief, zowel mondeling als schriftelijk gebruiken als communicatiemiddelen in relevante situaties.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-communicatie",
+          "prefLabel": "communicatie (andere talen)"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Literatuur in vreemde talen beleven.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-literatuur",
+          "prefLabel": "literatuur (andere talen)"
+        },
+        {
+          "altLabel": [
+            "taal en maatschappij (andere talen)"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht hebben in vreemde talen als exponenten en delen van culturen en maatschappijen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-taal-en-cultuur",
+          "prefLabel": "taal en cultuur (andere talen)"
+        },
+        {
+          "altLabel": [
+            "taalsystematiek (andere talen)"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Kenmerken en principes van vreemde talen begrijpen om ze in te zetten bij het communiceren.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-taalsysteem",
+          "prefLabel": "taalsysteem (andere talen)"
+        }
+      ],
+      "altLabel": [
+        "competenties in andere talen"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "andere talen",
+      "definition": "3. Competenties in andere talen",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-andere-talen"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-burgerschap-en-samenleven",
+      "prefLabel": "burgerschap en samenleven",
+      "definition": "7. Burgerschapscompetenties met inbegrip van competenties inzake samenleven",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-democratie-en-mensenrechten",
+          "prefLabel": "democratie en mensenrechten",
+          "definition": "Democratische principes en democratische cultuur kaderen binnen de moderne rechtsstaat.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-dialoog",
+          "prefLabel": "dialoog",
+          "definition": "Geïnformeerd en beargumenteerd met elkaar in dialoog gaan.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-diversiteit",
+          "prefLabel": "diversiteit",
+          "definition": "Omgaan met diversiteit in het samenleven en het samenwerken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-identiteit",
+          "prefLabel": "identiteit",
+          "definition": "De dynamiek en de gelaagdheid van (eigen) identiteiten duiden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-maatschappijkritisch-denken",
+          "prefLabel": "maatschappijkritisch denken",
+          "definition": "De wederzijdse invloed tussen maatschappelijke domeinen en ontwikkelingen en de impact ervan op de (globale) samenleving en het individu kritisch benaderen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-participatie",
+          "prefLabel": "participatie",
+          "definition": "Actief participeren aan de samenleving, rekening houdend met de rechten en plichten van iedereen binnen de rechtsstaat.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-politiek",
+          "prefLabel": "politiek",
+          "definition": "Democratische besluitvorming op lokaal, nationaal en internationaal niveau duiden",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-cultureel-bewustzijn-en-culturele-expressie",
+      "prefLabel": "cultureel bewustzijn en culturele expressie",
+      "definition": "16. Cultureel bewustzijn en culturele expressie",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstbeleving-en-waardering",
+          "prefLabel": "kunstbeleving en waardering",
+          "definition": "Uitingen van kunst en cultuur beleven en de waardering ervoor duiden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstconcepten",
+          "prefLabel": "kunstconcepten",
+          "definition": "Uitingen van kunst en cultuur waarnemen en conceptualiseren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstcreatie",
+          "prefLabel": "kunstcreatie",
+          "definition": "Verbeelding gericht inzetten bij het creëren van artistiek werk.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstgeschiedenis-en-kunststromingen",
+          "prefLabel": "kunstgeschiedenis en kunststromingen",
+          "definition": "Uitingen van kunst en cultuur duiden in relatie tot de maatschappelijke,  historische en geografische context waarin ze zich manifesteren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-digitale-competenties-en-mediawijsheid",
+      "prefLabel": "digitale competenties en mediawijsheid",
+      "definition": "4. Digitale competentie en mediawijsheid",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-computers-en-systemen",
+          "prefLabel": "computers en systemen",
+          "definition": "Computationeel denken en handelen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-digitale-media-en-toepassingen",
+          "prefLabel": "digitale media en toepassingen",
+          "definition": "Digitale media en toepassingen gebruiken om te creëren, te participeren en te interageren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mediawijsheid",
+          "prefLabel": "mediawijsheid",
+          "definition": "Verantwoord, kritisch en ethisch omgaan met digitale en niet-digitale media en informatie.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-duurzaamheid",
+      "prefLabel": "duurzaamheid",
+      "definition": "10. Competenties inzake duurzaamheid",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-chemie",
+          "prefLabel": "chemie (bouwsteen)",
+          "definition": "Inzicht ontwikkelen in de bouw, structuur en eigenschappen van materie in levende en niet-levende systemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-biologie",
+          "prefLabel": "biologie (bouwsteen)",
+          "definition": "Inzicht ontwikkelen in de basiseigenschappen van levende systemen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-fysica",
+          "prefLabel": "fysica (bouwsteen)",
+          "definition": "Inzicht ontwikkelen in de verschijningsvormen van energie, de wisselwerking tussen materie onderling en met energie alsook de gevolgen ervan.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-geld-en-consumptie",
+          "prefLabel": "geld en consumptie",
+          "definition": "Inzicht ontwikkelen in consumptiegedrag, inkomensverwerving en financiële producten om budgettaire gevolgen op korte en lange termijn in te schatten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-keuzes-maken",
+          "prefLabel": "keuzes maken",
+          "definition": "(Duurzame) keuzes maken, rekening houdend met gevolgen op korte en lange termijn.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-landschap-en-plaats",
+          "prefLabel": "landschap en plaats",
+          "definition": "Plaatsbegrip hanteren om lokale, nationale en internationale gebeurtenissen in een geografisch kader te plaatsen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-maatschappijkritisch-denken",
+          "prefLabel": "maatschappijkritisch denken",
+          "definition": "De wederzijdse invloed tussen maatschappelijke domeinen en ontwikkelingen en de impact ervan op de (globale) samenleving en het individu kritisch benaderen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mens-en-leefomgeving",
+          "prefLabel": "mens en leefomgeving",
+          "definition": "Ruimtelijke patronen en processen aan het aardoppervlak verklaren als het resultaat van interacties tussen natuurlijke processen onderling, tussen menselijke processen onderling en tussen natuurlijke en menselijke processen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-stem-onderzoek",
+          "prefLabel": "STEM-onderzoek",
+          "definition": "Natuurwetenschappelijke, technologische en wiskundige concepten en methoden inzetten om problemen op te lossen en om objecten, systemen en hun interacties te onderzoeken en te begrijpen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-technologie-en-technieken",
+          "prefLabel": "technologie en technieken",
+          "definition": "Technische systemen ontwerpen, realiseren, in gebruik nemen en evalueren rekening houdend met fundamentele maatschappelijke, wetenschappelijke en technologische aspecten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-economie",
+          "prefLabel": "economie (bouwsteen)",
+          "definition": "Reflecteren over de werking van de markten en de economie als systeem en de invloed van de overheid hierop duiden binnen de (inter)nationale context.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-geld-en-consumptie",
+          "prefLabel": "geld en consumptie",
+          "definition": "Inzicht ontwikkelen in consumptiegedrag, inkomensverwerving en financiële producten om budgettaire gevolgen op korte en lange termijn in te schatten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "altLabel": [
+            "bedrijf en organisatie"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "De werking van ondernemingen en organisaties en hun maatschappelijke rol duiden.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-ondernemen-en-organisatie",
+          "prefLabel": "ondernemen en organisatie"
+        }
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "economisch-financiële competenties",
+      "definition": "11. Economische en financiële competenties",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-economisch-financiele-competenties"
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Kritisch reflecteren met en over historische bronnen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-bronnenkritiek",
+          "prefLabel": "bronnenkritiek"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Tot beargumenteerde historische beeldvorming komen vanuit verschillende perspectieven.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-historische-beeldvorming",
+          "prefLabel": "historische beeldvorming"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Over de complexe relatie tussen verleden, heden en toekomst reflecteren en deze duiden.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-historische-dynamieken",
+          "prefLabel": "historische dynamieken"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Historische fenomenen situeren in een historisch referentiekader.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-historische-tijdlijn",
+          "prefLabel": "historische tijdlijn"
+        }
+      ],
+      "altLabel": [
+        "geschiedenis"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "historisch bewustzijn",
+      "definition": "8. Competenties met betrekking tot historisch bewustzijn",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-historisch-bewustzijn"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-juridische-competenties",
+      "prefLabel": "juridische competenties",
+      "definition": "12. Juridische competenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-democratie-en-mensenrechten",
+          "prefLabel": "democratie en mensenrechten",
+          "definition": "Democratische principes en democratische cultuur kaderen binnen de moderne rechtsstaat.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-economie",
+          "prefLabel": "economie (bouwsteen)",
+          "definition": "Reflecteren over de werking van de markten en de economie als systeem en de invloed van de overheid hierop duiden binnen de (inter)nationale context.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-geld-en-consumptie",
+          "prefLabel": "geld en consumptie",
+          "definition": "Inzicht ontwikkelen in consumptiegedrag, inkomensverwerving en financiële producten om budgettaire gevolgen op korte en lange termijn in te schatten.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mens-en-leefomgeving",
+          "prefLabel": "mens en leefomgeving",
+          "definition": "Ruimtelijke patronen en processen aan het aardoppervlak verklaren als het resultaat van interacties tussen natuurlijke processen onderling, tussen menselijke processen onderling en tussen natuurlijke en menselijke processen.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-participatie",
+          "prefLabel": "participatie",
+          "definition": "Actief participeren aan de samenleving, rekening houdend met de rechten en plichten van iedereen binnen de rechtsstaat.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-informatie-verwerven",
+          "prefLabel": "informatie verwerven",
+          "definition": "Geschikte (leer-)activiteiten, strategieën en tools inzetten om informatie digitaal en niet-digitaal kritisch te verwerven, beheren en verwerken rekening houdend met het beoogde leerresultaat en –proces.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "altLabel": [
+            "leervaardigheden"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Zichzelf als lerende begrijpen en positioneren ten aanzien van leren in het algemeen en van specifieke leerdomeinen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-leren-leren",
+          "prefLabel": "leren leren"
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-onderzoeken",
+          "prefLabel": "onderzoeken",
+          "definition": "Een (onderzoeks-)probleem (v)erkennen en een antwoord of oplossing zoeken gebruikmakend van geschikte (leer-)activiteiten, strategieën en tools.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-reguleren",
+          "prefLabel": "reguleren",
+          "definition": "Leeropvattingen, -proces en -resultaten reguleren.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-samenwerken",
+          "prefLabel": "samenwerken",
+          "definition": "Samen het leerproces vormgeven.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "altLabel": [
+            "jargon"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Domeinspecifieke terminologie, symbolen en voorstellingen hanteren.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-vaktaal",
+          "prefLabel": "vaktaal"
+        }
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "leercompetenties",
+      "definition": "13. Leercompetenties met inbegrip van onderzoekscompetenties, innovatiedenken, creativiteit, probleemoplossend en kritisch denken, systeemdenken, informatieverwerking en samenwerken",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-leercompetenties"
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Een gezonde levensstijl opbouwen, onderhouden en versterken.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-gezonde-levensstijl",
+          "prefLabel": "gezonde levensstijl"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Het mentaal welbevinden opbouwen, onderhouden en versterken.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mentaal-welbevinden",
+          "prefLabel": "mentaal welbevinden"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Een fysiek actieve levensstijl opbouwen, onderhouden en versterken",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-sport-en-beweging",
+          "prefLabel": "sport en beweging"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Een veilige levensstijl realiseren door het correct inschatten van risicofactoren",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-veiligheid",
+          "prefLabel": "veiligheid"
+        }
+      ],
+      "altLabel": [
+        "lichamelijke en geestelijke gezondheid"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "lichamelijk, geestelijk en emotioneel welzijn",
+      "definition": "1. Competenties op het vlak van lichamelijk, geestelijk en emotioneel bewustzijn/gezondheid",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-lichamelijk-geestelijk-en-emotioneel-welzijn"
+    },
+    {
+      "narrower": [
+        {
+          "altLabel": [
+            "communicatievaardigheden (Nederlands)",
+            "communicatieve vaardigheden (Nederlands)"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Het Nederlands receptief, productief en interactief, zowel mondeling als schriftelijk gebruiken als communicatiemiddel in relevante situaties.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-communicatie",
+          "prefLabel": "communicatie (Nederlands)"
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-literatuur",
+          "prefLabel": "literatuur (Nederlands)",
+          "definition": "Literatuur in het Nederlands beleven.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "altLabel": [
+            "taal en maatschappij (Nederlands)"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht hebben in taal, in het bijzonder het Nederlands, als exponent en deel van een cultuur en een maatschappij.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-taal-en-cultuur",
+          "prefLabel": "taal en cultuur (Nederlands)"
+        },
+        {
+          "altLabel": [
+            "taalsystematiek (Nederlands)"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Kenmerken en principes van het Nederlands begrijpen om ze in te zetten bij het communiceren.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-taalsysteem",
+          "prefLabel": "taalsysteem (Nederlands)"
+        }
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "Nederlands",
+      "definition": "2. Competenties in het Nederlands",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-nederlands"
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "(Duurzame) keuzes maken, rekening houdend met gevolgen op korte en lange termijn.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-keuzes-maken",
+          "prefLabel": "keuzes maken"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Opportuniteiten zien en verkennen met behulp van een creatief denkproces.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-opportuniteiten-verkennen",
+          "prefLabel": "opportuniteiten verkennen"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "De uitvoerbaarheid van ideeën onderzoeken, het inzetten van middelen tegenover doelstellingen afwegen en het gekozen idee realiseren.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-uitvoeringsanalyse",
+          "prefLabel": "uitvoeringsanalyse"
+        }
+      ],
+      "altLabel": [
+        "ondernemen"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "ondernemingszin",
+      "definition": "15. Ontwikkeling van initiatief, ambitie, ondernemingszin en loopbaancompetenties",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ondernemingszin"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-religie-en-levensbeschouwing",
+      "prefLabel": "religie en levenbeschouwing",
+      "definition": "Competenties betreffende religie en levensbeschouwing",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-ethiek",
+          "prefLabel": "ethiek",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-filosofie",
+          "prefLabel": "filosofie (bouwsteen)",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-religie-en-geloof",
+          "prefLabel": "religie en geloof",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Plaatsbegrip hanteren om lokale, nationale en internationale gebeurtenissen in een geografisch kader te plaatsen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-landschap-en-plaats",
+          "prefLabel": "landschap en plaats"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Ruimtelijke patronen en processen aan het aardoppervlak verklaren als het resultaat van interacties tussen natuurlijke processen onderling, tussen menselijke processen onderling en tussen natuurlijke en menselijke processen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mens-en-leefomgeving",
+          "prefLabel": "mens en leefomgeving"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Personen, plaatsen, patronen en processen situeren op verschillende ruimtelijke schaalniveaus en tijdsschalen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-ruimte-en-tijd",
+          "prefLabel": "ruimte en tijd"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Geografische methoden en technieken aanwenden om ruimtelijke patronen en processen te onderzoeken.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-ruimtelijk-onderzoek",
+          "prefLabel": "ruimtelijk onderzoek"
+        }
+      ],
+      "altLabel": [
+        "aardrijkskunde"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "ruimtelijk bewustzijn",
+      "definition": "9. Competenties met betrekking tot ruimtelijk bewustzijn",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ruimtelijk-bewustzijn"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-sociaal-relationele-vorming",
+      "prefLabel": "sociaal-relationele vorming",
+      "definition": "5. Sociaal-relationele competenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "narrower": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-relaties",
+          "prefLabel": "relaties",
+          "definition": "Interpersoonlijke relaties opbouwen, onderhouden en versterken.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ]
+        }
+      ]
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in de bouw, structuur en eigenschappen van materie in levende en niet-levende systemen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-chemie",
+          "prefLabel": "chemie (bouwsteen)"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in de basiseigenschappen van levende systemen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-biologie",
+          "prefLabel": "biologie (bouwsteen)"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in de verschijningsvormen van energie, de wisselwerking tussen materie onderling en met energie alsook de gevolgen ervan.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-fysica",
+          "prefLabel": "fysica (bouwsteen)"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Natuurwetenschappelijke, technologische en wiskundige concepten en methoden inzetten om problemen op te lossen en om objecten, systemen en hun interacties te onderzoeken en te begrijpen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-stem-onderzoek",
+          "prefLabel": "STEM-onderzoek"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Technische systemen ontwerpen, realiseren, in gebruik nemen en evalueren rekening houdend met fundamentele maatschappelijke, wetenschappelijke en technologische aspecten.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-technologie-en-technieken",
+          "prefLabel": "technologie en technieken"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in technische systemen en processen en hun relatie tot verschillende technologische domeinen en tot andere domeinen (wetenschappen, wiskunde …).",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-technologisch-inzicht",
+          "prefLabel": "technologisch inzicht"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in en omgaan met relatie en verandering: zoals algebra, analyse en discrete structuren.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-algebra-analyse",
+          "prefLabel": "wiskunde - algebra, analyse"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in en omgaan met getallen en hoeveelheden: getallenleer.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-getallenleer",
+          "prefLabel": "wiskunde - getallenleer"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in en omgaan met data en onzekerheid: zoals kansrekenen en statistiek.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-kansrekenen-statistiek",
+          "prefLabel": "wiskunde - kansrekenen, statistiek"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Inzicht ontwikkelen in en omgaan met ruimte en vorm: meetkunde en metend rekenen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-meetkunde-en-metend-rekenen",
+          "prefLabel": "wiskunde - meetkunde en metend rekenen"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Modelleren en problemen oplossen door analyseren, (de)mathematiseren of aanwenden van heuristieken.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-modelleren-en-heuristiek",
+          "prefLabel": "wiskunde - modelleren en heuristiek"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Redeneringen opbouwen en abstraheren rekening houdend met de samenhang en structuur van wiskunde.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-redeneren",
+          "prefLabel": "wiskunde - redeneren"
+        }
+      ],
+      "altLabel": [
+        "wetenschappen, technologie, engineering, wiskunde"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "STEM (sleutelcompetentie)",
+      "definition": "6. Competenties inzake wiskunde, exacte wetenschappen en technologie",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-stem"
+    },
+    {
+      "narrower": [
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Uitingen van kunst en cultuur beleven en de waardering ervoor duiden.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstbeleving-en-waardering",
+          "prefLabel": "kunstbeleving en waardering"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Verbeelding gericht inzetten bij het creëren van artistiek werk.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstcreatie",
+          "prefLabel": "kunstcreatie"
+        },
+        {
+          "altLabel": [
+            "leervaardigheden"
+          ],
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Zichzelf als lerende begrijpen en positioneren ten aanzien van leren in het algemeen en van specifieke leerdomeinen.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-leren-leren",
+          "prefLabel": "leren leren"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Het mentaal welbevinden opbouwen, onderhouden en versterken.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mentaal-welbevinden",
+          "prefLabel": "mentaal welbevinden"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Leeropvattingen, -proces en -resultaten reguleren.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-reguleren",
+          "prefLabel": "reguleren"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Interpersoonlijke relaties opbouwen, onderhouden en versterken.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-relaties",
+          "prefLabel": "relaties"
+        },
+        {
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+          ],
+          "definition": "Samen het leerproces vormgeven.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-samenwerken",
+          "prefLabel": "samenwerken"
+        }
+      ],
+      "altLabel": [
+        "zelfexpressie",
+        "zelfsturing",
+        "zelfwendbaarheid"
+      ],
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ],
+      "prefLabel": "zelfbewustzijn",
+      "definition": "14. Zelfbewustzijn en zelfexpressie, zelfsturing en wendbaarheid",
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-zelfbewustzijn"
+    }
+  ]
+}
