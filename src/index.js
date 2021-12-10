@@ -63,9 +63,41 @@ async function runQuery(queryName, titleSuffix, params) {
   const result = await fetchResult(query, params);
   console.log(`=== Writing output to ${outputFile}`);
   fs.writeFileSync(outputFile, JSON.stringify(result, null, "  "), "utf8");
+  return result;
 }
 
+// an example function that makes an application specific object containing all kinds of connected concepts and their collection memberships
+function collectRelatedForSearch(result, id, outputFile) {
+  const newResult = {
+    "id": id,
+    "relatedForSearch": []
+  };
+  for (const prop of ["related", "broaderTransitive", "narrowerTransitive"]) {
+    if (result["@graph"][0].hasOwnProperty(prop)) {
+      newResult["relatedForSearch"].push(...result["@graph"][0][prop]);
+    }
+  }
+
+  console.log(`=== Writing collected connected concepts to ${outputFile}`);
+  fs.writeFileSync(outputFile, JSON.stringify(newResult, null, "  "), "utf8");
+  return newResult;
+}
+
+
+
 (async function main() {
+
+  // show me basic information (here on a collection)
+  await runQuery("basic", "-on-sleutelcompetenties",
+    {
+      ID: `${prefices.elem}sleutelcompetenties`
+    });
+
+  // show me basic information (here on a concept)
+  await runQuery("basic", "-on-s-literatuur",
+    {
+      ID: `${prefices.curr1}s-literatuur`
+    });
 
   // show me all connections
   await runQuery("collections", "", {});
@@ -134,6 +166,50 @@ async function runQuery(queryName, titleSuffix, params) {
       ID2: `${prefices.curr1}c-duurzaamheid`,
       COLLECTION: `${prefices.elem}onddoel`
     });
+
+  {
+    // show me info, including collection memberships about a bouwsteen, its broaderTransitive concepts and its narrowerTransitives concepts
+    const id = `${prefices.curr1}s-geld-en-consumptie`;
+    const result = await runQuery("concept-related-broader-transitive-narrower-transitive", "-on-curr1-s-geld-en-consumptie",
+      {
+        ID: id
+      });
+    // additionally, collect from this result a "related for search" object
+    collectRelatedForSearch(result, id, path.resolve(outputDir, "concept-related-broader-transitive-narrower-transitive-on-curr1-s-geld-en-consumptie-related-for-search.json"));
+  }
+
+  {
+    // show me info, including collection memberships about a sleutelcompetentie, its broaderTransitive concepts and its narrowerTransitives concepts
+    const id = `${prefices.curr1}c-economisch-financiele-competenties`;
+    const result = await runQuery("concept-related-broader-transitive-narrower-transitive", "-on-curr1-c-economisch-financiele-competenties",
+      {
+        ID: id
+      });
+    // additionally, collect from this result a "related for search" object
+    collectRelatedForSearch(result, id, path.resolve(outputDir, "concept-related-broader-transitive-narrower-transitive-on-curr1-c-economisch-financiele-competenties-related-for-search.json"));
+  }
+
+  {
+    // show me info, including collection memberships about a onderwijsdoel, its broaderTransitive concepts and its narrowerTransitives concepts
+    const id = `${prefices.onddoel}sec-gr1-astroom-duurzaamheid-11.1`;
+    const result = await runQuery("concept-related-broader-transitive-narrower-transitive", "-on-onddoel-sec-gr1-astroom-duurzaamheid-11.1",
+      {
+        ID: `${prefices.onddoel}sec-gr1-astroom-duurzaamheid-11.1`
+      });
+    // additionally, collect from this result a "related for search" object
+    collectRelatedForSearch(result, id, path.resolve(outputDir, "concept-related-broader-transitive-narrower-transitive-on-onddoel-sec-gr1-astroom-duurzaamheid-11.1-related-for-search.json"));
+  }
+
+  {
+    // show me info, including collection memberships about a onderwijsniveau, its broaderTransitive concepts and its narrowerTransitives concepts
+    const id = `${prefices.ondniv}sec-gr1-astroom`;
+    const result = await runQuery("concept-related-broader-transitive-narrower-transitive", "-on-ondniv-sec-gr1-astroom",
+      {
+        ID: id
+      });
+    // additionally, collect from this result a "related for search" object
+    collectRelatedForSearch(result, id, path.resolve(outputDir, "concept-related-broader-transitive-narrower-transitive-on-ondniv-sec-gr1-astroom-related-for-search.json"));
+  }
 
   // show me the collections in the curricula, connected to onderwijsniveau x, its broader concepts or its narrower concepts
   await runQuery("onderwijsniveau-to-curriculum-collection", "-on-sec",

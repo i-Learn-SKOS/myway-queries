@@ -17,8 +17,11 @@ See also [this guidance in Dutch](MYWAY_QUERIES.md).
 
 ## Queries
 
+### basic.gql
+A basic informative query. Lists all basic information on anything.
+
 ### collections.gql
-A basic informative query. Lists all known collections.
+Lists all known collections.
 
 ### collection-hierarchy.gql
 For a given collection, retrieve its hierarchy (top down overview of concepts in the collection).
@@ -47,6 +50,9 @@ Same as `concept-related1.gql`, but in addition, only concepts also related to a
 
 Example: return only the onderwijsdoelen related to a bouwsteen and the applicable sleutelcompetentie. 
 
+### concept-related-broader-transitive-narrower-transitive.gql
+For a given concept, retrieve related, broaderTransitive and narrowerTransitiveconcepts.
+
 ### onderwijsniveau-to-curriculum-collection.gql
 For a given onderwijsniveau, retrieve curriculum collections.
 These collections might be connected to the concept, its broader (transitive) concepts or its narrower (transitive) concepts.
@@ -55,6 +61,7 @@ These collections might be connected to the concept, its broader (transitive) co
 For a given onderwijsniveau, retrieve related onderwijsdoelen.
 These onderwijsdoelen might be related to the onderwijsniveau, its broader (transitive) onderwijsniveaus or its narrower (transitive) onderwijsniveaus.
 
-## Example sequences
+## Advised sequences
 
-- onderwijsniveau-to-curriculum-collection.gql --> collection-members-and-narrower.gql --> concept-related[x].gql
+- top-down: onderwijsniveau-to-curriculum-collection.gql --> collection-members-and-narrower.gql --> concept-related[x].gql
+- bottom-up: concept-related-broader-transitive-narrower-transitive.gql

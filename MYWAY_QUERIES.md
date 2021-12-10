@@ -127,3 +127,31 @@ query `onderwijsniveau-to-onderwijsdoelen.gql`
   - voorbeeld: `onderwijsniveau-to-onderwijsdoelen-on-sec-gr1-astroom.json`
   - geeft de onderwijsdoelen weer verbonden (related) aan het onderwijsniveau, rechtstreeks of via elk hoger (broaderTransitive) of via elk lager (narrowerTransitive) onderwijsniveau in de onderwijsniveau hiërarchie.
 
+## Bottom-up, vertrekkende van een bepaald concept
+
+Dit is nuttig om bijvoorbeeld vertrekkende van een gegeven combinatie van concepten (bijvoorbeeld één bouwsteen, één sleutelcompetentie, één onderwijsdoel en één onderwijsniveau),
+op zoek te gaan naar alle gemeenschappelijk geconnecteerde andere concepten en de collecties waartoe ze behoren. 
+
+Voer uit:
+
+query `concept-related-broader-transitive-narrower-transitive.gql`
+
+- parameters
+  - ID: het bedoelde concept
+- output
+  - voorbeelden:
+    - `concept-related-broader-transitive-narrower-transitive-on-curr1-s-geld-en-consumptie.json`
+    - `concept-related-broader-transitive-narrower-transitive-on-curr1-c-economisch-financiele-competenties.json`
+    - `concept-related-broader-transitive-narrower-transitive-on-onddoel-sec-gr1-astroom-duurzaamheid-11.1.json`
+    - `concept-related-broader-transitive-narrower-transitive-on-ondniv-sec-gr1-astroom.json`
+  - geeft skos:related concepts, skos:broaderTransitive concepts en skos:narrowerTransitive concepts.
+    
+Eventueel kan de output omgevormd worden tot een eenvoudig object, voor de "related-for-search" functionaliteit in MyWay
+  - voorbeeldcode hiervoor: functie `collectRelatedForSearch` in source file `index.js`.
+  - voorbeeld output:  
+    - `concept-related-broader-transitive-narrower-transitive-on-curr1-s-geld-en-consumptie-related-for-search.json`
+    - `concept-related-broader-transitive-narrower-transitive-on-curr1-c-economisch-financiele-competenties-related-for-search.json`
+    - `concept-related-broader-transitive-narrower-transitive-on-onddoel-sec-gr1-astroom-duurzaamheid-11.1-related-for-search.json`
+    - `concept-related-broader-transitive-narrower-transitive-on-ondniv-sec-gr1-astroom-related-for-search.json`
+
+

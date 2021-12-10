@@ -1,0 +1,9 @@
+# In: ID, a concept or a collection
+# Result: basic properties
+{
+  id (_:ID)
+  TYPE @single @optional
+  prefLabel @single
+  altLabel @optional
+  definition @single @optional
+}

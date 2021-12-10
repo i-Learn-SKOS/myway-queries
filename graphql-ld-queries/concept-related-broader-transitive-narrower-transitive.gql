@@ -1,0 +1,23 @@
+# In: ID, a concept
+# Result:
+# - related, broaderTransitive and narrowerTransitive concepts
+# - and their collection memberships
+{
+  id (_:ID)
+  related @optional {
+    id @single
+    ... conceptFields
+  }
+  broaderTransitive @optional {
+    id @single
+    ... conceptFields
+  }
+  narrowerTransitive @optional {
+    id @single
+    ... conceptFields
+  }
+}
+
+fragment conceptFields on Concept {
+  memberOf @optional
+}
