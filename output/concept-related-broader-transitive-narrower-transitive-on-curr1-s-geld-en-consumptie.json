@@ -63,6 +63,10 @@
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language": "nl"
     },
+    "hiddenLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+      "@language": "nl"
+    },
     "definition": {
       "@id": "http://www.w3.org/2004/02/skos/core#definition",
       "@language": "nl"
@@ -207,433 +211,175 @@
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-1044937014",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-1201038432",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-1934316131",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-3449970262",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-4176883841",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.2-183253554",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.2-2048055894",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.2-229962126",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.2-2605940950",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.2-2836112968",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.3-1539832928",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-duurzaamheid-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.3-1910181136",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.3-2027871461",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.3-323993377",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.3-3324086458",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-11.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-2027871461",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-bg-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-2588081104",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-bg-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-2680277097",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-economisch-financiele-competenties-bg-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-2875613862",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-juridische-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-364518279",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-juridische-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-395142613",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-juridische-competenties-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-463417061",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.5-3009172885",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.5-3355804020",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.5-395142613",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-economisch-financiele-competenties-11.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.6-3009172885",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-11.1-3829669666",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-11.2-1179796564",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-juridische-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-juridische-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-economisch-financiele-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-juridische-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-juridische-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-juridische-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.5",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-economisch-financiele-competenties-11.6",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-juridische-competenties-11.6",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-economisch-financiele-competenties-11.5",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-juridische-competenties-11.5",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.5",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-economisch-financiele-competenties-11.6",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-juridische-competenties-11.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-11.3-2974715638",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]

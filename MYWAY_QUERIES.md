@@ -154,4 +154,21 @@ Eventueel kan de output omgevormd worden tot een eenvoudig object, voor de "rela
     - `concept-related-broader-transitive-narrower-transitive-on-onddoel-sec-gr1-astroom-duurzaamheid-11.1-related-for-search.json`
     - `concept-related-broader-transitive-narrower-transitive-on-ondniv-sec-gr1-astroom-related-for-search.json`
 
+## Verwijder de "Nummer / Code" prefix uit de definitie van een onderwijsdoel
 
+Op vraag van het MyWay team begint de skos:definition met de toegekende "Nummer /code" waarde uit de AHOVOKS input.
+Deze waarde is in een vrij formaat en vandaar moeilijk terug uit te filteren.
+Om dit mogelijk te maken werd ze ter informatie toegevoegd aan de data in de eigenschap skos:hiddenLabel.
+
+Voer uit:
+
+query `basic-including-hidden-label.gql`
+
+- parameters
+  - ID: het bedoelde onderwijsdoel concept
+- output
+  - voorbeeld:
+    - `basic-including-hidden-label-on-sec-11.1-1934316131.json`
+  - geeft basis informatie, waaronder skos:definition, maar ook skos:hiddenLabel.
+
+Om een definitie te maken zonder de "Nummer / Code" prefix, verwijder het resulterend skos:hiddenLabel + volgende whitespace uit de resulterende skos:definition

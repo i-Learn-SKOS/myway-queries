@@ -1,0 +1,45 @@
+{
+  "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-1934316131",
+  "relatedForSearch": [
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-geld-en-consumptie",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-duurzaamheid",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-economisch-financiele-competenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-juridische-competenties",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
+        "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-astroom",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-bstroom",
+      "memberOf": [
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+      ]
+    }
+  ]
+}

@@ -63,6 +63,10 @@
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language": "nl"
     },
+    "hiddenLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+      "@language": "nl"
+    },
     "definition": {
       "@id": "http://www.w3.org/2004/02/skos/core#definition",
       "@language": "nl"
@@ -128,40 +132,40 @@
       ],
       "related": [
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-frans-5",
-          "prefLabel": "basis-lager-frans-5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-5-1922863437",
+          "prefLabel": "basis-lager-5-1922863437",
           "definition": "5 De leerlingen kunnen volgende taken beschrijvend uitvoeren: het onderwerp bepalen in informatieve, prescriptieve, narratieve en artistiek-literaire teksten met de volgende kenmerken\n\nOnderwerp\n-concreet\n-eigen leefwereld en dagelijks leven\n\nTaalgebruikssituatie\n-concrete en voor de leerlingen vertrouwde, relevante taalgebruikssituaties\n-meestal met visuele ondersteuning\n-tot hen of tot hun leeftijdsgroep gericht\n\nStructuur/samenhang/lengte\n-korte enkelvoudige en eenvoudig samengestelde zinnen met de meest frequente voegwoorden\n-elementaire tekststructuur\n-korte teksten\n-ook met redundante informatie\n\nWoordenschat en taalvariëteit\n-frequente woorden\n-eenduidig in de context\n-standaardtaal\n-informeel en formeel",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-frans-6",
-          "prefLabel": "basis-lager-frans-6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-6-1334163312",
+          "prefLabel": "basis-lager-6-1334163312",
           "definition": "6 De leerlingen kunnen volgende taken beschrijvend uitvoeren: de hoofdgedachte achterhalen in informatieve, prescriptieve, narratieve en artistiek-literaire\nteksten met de volgende kenmerken\n\nOnderwerp\n-concreet\n-eigen leefwereld en dagelijks leven\n\nTaalgebruikssituatie\n-concrete en voor de leerlingen vertrouwde, relevante taalgebruikssituaties\n-meestal met visuele ondersteuning\n-tot hen of tot hun leeftijdsgroep gericht\n\nStructuur/samenhang/lengte\n-korte enkelvoudige en eenvoudig samengestelde zinnen met de meest frequente voegwoorden\n-elementaire tekststructuur\n-korte teksten\n-ook met redundante informatie\n\nWoordenschat en taalvariëteit\n-frequente woorden\n-eenduidig in de context\n-standaardtaal\n-informeel en formeel",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-frans-7",
-          "prefLabel": "basis-lager-frans-7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-7-3746987964",
+          "prefLabel": "basis-lager-7-3746987964",
           "definition": "7 De leerlingen kunnen volgende taken beschrijvend uitvoeren: de gedachtegang volgen van prescriptieve en narratieve teksten met de volgende kenmerken\n\nOnderwerp\n-concreet\n-eigen leefwereld en dagelijks leven\n\nTaalgebruikssituatie\n-concrete en voor de leerlingen vertrouwde, relevante taalgebruikssituaties\n-meestal met visuele ondersteuning\n-tot hen of tot hun leeftijdsgroep gericht\n\nStructuur/samenhang/lengte\n-korte enkelvoudige en eenvoudig samengestelde zinnen met de meest frequente voegwoorden\n-elementaire tekststructuur\n-korte teksten\n-ook met redundante informatie\n\nWoordenschat en taalvariëteit\n-frequente woorden\n-eenduidig in de context\n-standaardtaal\n-informeel en formeel",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-frans-8",
-          "prefLabel": "basis-lager-frans-8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-8-3792225747",
+          "prefLabel": "basis-lager-8-3792225747",
           "definition": "8 De leerlingen kunnen volgende taken beschrijvend uitvoeren: gevraagde informatie selecteren uit informatieve en narratieve teksten met de volgende kenmerken\n\nOnderwerp\n-concreet\n-eigen leefwereld en dagelijks leven\n\nTaalgebruikssituatie\n-concrete en voor de leerlingen vertrouwde, relevante taalgebruikssituaties\n-meestal met visuele ondersteuning\n-tot hen of tot hun leeftijdsgroep gericht\n\nStructuur/samenhang/lengte\n-korte enkelvoudige en eenvoudig samengestelde zinnen met de meest frequente voegwoorden\n-elementaire tekststructuur\n-korte teksten\n-ook met redundante informatie\n\nWoordenschat en taalvariëteit\n-frequente woorden\n-eenduidig in de context\n-standaardtaal\n-informeel en formeel",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-frans-9",
-          "prefLabel": "basis-lager-frans-9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-9-3986372844",
+          "prefLabel": "basis-lager-9-3986372844",
           "definition": "9 De leerlingen passen indien nodig volgende strategieën toe:\n-zich blijven concentreren ondanks het feit dat ze niet alles begrijpen;\n-het leesdoel bepalen;\n-gebruik maken van ondersteunend visueel en auditief materiaal;\n-hypothesen vormen over de inhoud van de tekst\n-de vermoedelijke betekenis van transparante woorden afleiden;\n-de vermoedelijke betekenis van onbekende woorden afleiden uit de context;\n-herlezen wat onduidelijk is;\n-een woordenlijst of een woordenboek raadplegen.\nIn teksten met de volgende kenmerken\n\nOnderwerp\n-concreet\n-eigen leefwereld en dagelijks leven\n\nTaalgebruikssituatie\n-concrete en voor de leerlingen vertrouwde, relevante taalgebruikssituaties\n-meestal met visuele ondersteuning\n-tot hen of tot hun leeftijdsgroep gericht\n\nStructuur/samenhang/lengte\n-korte enkelvoudige en eenvoudig samengestelde zinnen met de meest frequente voegwoorden\n-elementaire tekststructuur\n-korte teksten\n-met expliciete informatie\n-ook met redundante informatie\n\nWoordenschat en taalvariëteit\n-frequente woorden\n-eenduidig in de context\n-standaardtaal\n-informeel en formeel",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"

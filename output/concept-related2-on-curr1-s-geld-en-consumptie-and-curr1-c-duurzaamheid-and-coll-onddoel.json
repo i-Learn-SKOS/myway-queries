@@ -63,6 +63,10 @@
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language": "nl"
     },
+    "hiddenLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+      "@language": "nl"
+    },
     "definition": {
       "@id": "http://www.w3.org/2004/02/skos/core#definition",
       "@language": "nl"
@@ -129,16 +133,8 @@
       ],
       "related": [
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-11.1",
-          "prefLabel": "sec-gr1-astroom-duurzaamheid-11.1",
-          "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-duurzaamheid-11.1",
-          "prefLabel": "sec-gr1-bstroom-duurzaamheid-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-1934316131",
+          "prefLabel": "sec-11.1-1934316131",
           "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"

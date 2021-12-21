@@ -99,6 +99,12 @@ function collectRelatedForSearch(result, id, outputFile) {
       ID: `${prefices.curr1}s-literatuur`
     });
 
+  // show me basic information including skos:hiddenLabel (here on an onderwijsdoel concept)
+  await runQuery("basic-including-hidden-label", "-on-sec-11.1-1934316131",
+    {
+      ID: `${prefices.onddoel}sec-11.1-1934316131`
+    });
+
   // show me all connections
   await runQuery("collections", "", {});
 
@@ -191,13 +197,13 @@ function collectRelatedForSearch(result, id, outputFile) {
 
   {
     // show me info, including collection memberships about a onderwijsdoel, its broaderTransitive concepts and its narrowerTransitives concepts
-    const id = `${prefices.onddoel}sec-gr1-astroom-duurzaamheid-11.1`;
-    const result = await runQuery("concept-related-broader-transitive-narrower-transitive", "-on-onddoel-sec-gr1-astroom-duurzaamheid-11.1",
+    const id = `${prefices.onddoel}sec-11.1-1934316131`;
+    const result = await runQuery("concept-related-broader-transitive-narrower-transitive", "-on-onddoel-sec-11.1-1934316131",
       {
-        ID: `${prefices.onddoel}sec-gr1-astroom-duurzaamheid-11.1`
+        ID: `${prefices.onddoel}sec-11.1-1934316131`
       });
     // additionally, collect from this result a "related for search" object
-    collectRelatedForSearch(result, id, path.resolve(outputDir, "concept-related-broader-transitive-narrower-transitive-on-onddoel-sec-gr1-astroom-duurzaamheid-11.1-related-for-search.json"));
+    collectRelatedForSearch(result, id, path.resolve(outputDir, "concept-related-broader-transitive-narrower-transitive-on-onddoel-sec-11.1-1934316131-related-for-search.json"));
   }
 
   {

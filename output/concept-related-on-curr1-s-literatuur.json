@@ -63,6 +63,10 @@
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language": "nl"
     },
+    "hiddenLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+      "@language": "nl"
+    },
     "definition": {
       "@id": "http://www.w3.org/2004/02/skos/core#definition",
       "@language": "nl"
@@ -211,121 +215,89 @@
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.13",
-          "prefLabel": "sec-gr1-astroom-nederlands-2.13",
-          "definition": "2.13 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.14",
-          "prefLabel": "sec-gr1-astroom-nederlands-ud-2.14",
-          "definition": "UD 2.14 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-nederlands-2.12",
-          "prefLabel": "sec-gr1-bstroom-nederlands-2.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.12-2068001612",
+          "prefLabel": "sec-2.12-2068001612",
           "definition": "2.12 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-bstroom-nederlands-ud-2.13",
-          "prefLabel": "sec-gr1-bstroom-nederlands-ud-2.13",
-          "definition": "UD 2.13 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.13-2068001612",
+          "prefLabel": "sec-2.13-2068001612",
+          "definition": "2.13 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-arbeidsmarkt-bso-nederlands-2.15",
-          "prefLabel": "sec-gr2-arbeidsmarkt-bso-nederlands-2.15",
-          "definition": "2.15 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen, beluisteren en bekijken van literaire teksten.",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-nederlands-2.17",
-          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-nederlands-2.17",
-          "definition": "2.17 De leerlingen analyseren hoe in literaire teksten betekenissen worden gecreëerd met behulp van narratieve, retorische, poëticale en theatrale structuren en technieken.",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-doorstroom-aso-kso-tso-nederlands-2.18",
-          "prefLabel": "sec-gr2-doorstroom-aso-kso-tso-nederlands-2.18",
-          "definition": "2.18 De leerlingen treden in interactie over de relevantie van literaire teksten voor hun leefwereld, voor de samenleving waarin ze leven en voor de samenleving waarin de teksten ontstonden.",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr2-dubbel-kso-tso-nederlands-2.15",
-          "prefLabel": "sec-gr2-dubbel-kso-tso-nederlands-2.15",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.15-387290808",
+          "prefLabel": "sec-2.15-387290808",
           "definition": "2.15 De leerlingen verwoorden hun gedachten, gevoelens en beleving bij het lezen, beluisteren en bekijken van literaire teksten.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-nederlands-2.15",
-          "prefLabel": "sec-gr3-arbeidsmarkt-bso-nederlands-2.15",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.15-589862710",
+          "prefLabel": "sec-2.15-589862710",
           "definition": "2.15 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen, beluisteren en bekijken van literaire teksten.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-arbeidsmarkt-bso-nederlands-2.16",
-          "prefLabel": "sec-gr3-arbeidsmarkt-bso-nederlands-2.16",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.16-3752539769",
+          "prefLabel": "sec-2.16-3752539769",
           "definition": "2.16 De leerlingen treden in mondelinge interactie over de relevantie van literaire teksten voor hun leefwereld.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-nederlands-2.16",
-          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-nederlands-2.16",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.16-387290808",
+          "prefLabel": "sec-2.16-387290808",
           "definition": "2.16 De leerlingen verwoorden hun gedachten, gevoelens en beleving bij het lezen, beluisteren en bekijken van literaire teksten.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-nederlands-2.17",
-          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-nederlands-2.17",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.17-1296063072",
+          "prefLabel": "sec-2.17-1296063072",
+          "definition": "2.17 De leerlingen treden in interactie over de relevantie van literaire teksten voor hun leefwereld, voor de samenleving waarin ze leven en voor de samenleving waarin de teksten ontstonden.",
+          "memberOf": [
+            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.17-2530445748",
+          "prefLabel": "sec-2.17-2530445748",
           "definition": "2.17 De leerlingen analyseren hoe in literaire teksten betekenissen worden gecreëerd met behulp van narratieve, retorische, poëticale en theatrale structuren en technieken.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-doorstroom-aso-kso-tso-nederlands-2.18",
-          "prefLabel": "sec-gr3-doorstroom-aso-kso-tso-nederlands-2.18",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.18-1296063072",
+          "prefLabel": "sec-2.18-1296063072",
           "definition": "2.18 De leerlingen treden in interactie over de relevantie van literaire teksten voor hun leefwereld, voor de samenleving waarin ze leven en voor de samenleving waarin de teksten ontstonden.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-nederlands-2.16",
-          "prefLabel": "sec-gr3-dubbel-kso-tso-nederlands-2.16",
-          "definition": "2.16 De leerlingen verwoorden hun gedachten, gevoelens en beleving bij het lezen, beluisteren en bekijken van literaire teksten.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.13-2068001612",
+          "prefLabel": "sec-ud-2.13-2068001612",
+          "definition": "UD 2.13 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr3-dubbel-kso-tso-nederlands-2.17",
-          "prefLabel": "sec-gr3-dubbel-kso-tso-nederlands-2.17",
-          "definition": "2.17 De leerlingen treden in interactie over de relevantie van literaire teksten voor hun leefwereld, voor de samenleving waarin ze leven en voor de samenleving waarin de teksten ontstonden.",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.14-2068001612",
+          "prefLabel": "sec-ud-2.14-2068001612",
+          "definition": "UD 2.14 De leerlingen verwoorden hun gedachten en gevoelens bij het lezen en beluisteren van fictionele teksten met een literaire inslag met ondersteuning van elementaire literaire en narratieve concepten.",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]

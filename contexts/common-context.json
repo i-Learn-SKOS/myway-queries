@@ -22,6 +22,7 @@
   "Concept": {"@id": "http://www.w3.org/2004/02/skos/core#Concept"},
   "prefLabel": {"@id": "http://www.w3.org/2004/02/skos/core#prefLabel", "@language": "nl"},
   "altLabel": {"@id": "http://www.w3.org/2004/02/skos/core#altLabel", "@language": "nl"},
+  "hiddenLabel": {"@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel", "@language": "nl"},
   "definition": {"@id": "http://www.w3.org/2004/02/skos/core#definition", "@language": "nl"},
   "inScheme": {"@id": "http://www.w3.org/2004/02/skos/core#inScheme"},
   "schemeHas": {"@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"},

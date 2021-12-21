@@ -63,6 +63,10 @@
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language": "nl"
     },
+    "hiddenLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+      "@language": "nl"
+    },
     "definition": {
       "@id": "http://www.w3.org/2004/02/skos/core#definition",
       "@language": "nl"
@@ -121,28 +125,12 @@
   },
   "@graph": [
     {
-      "related": [
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-geld-en-consumptie",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
-            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-duurzaamheid",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
-            "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-astroom",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
-          ]
-        }
-      ]
+      "TYPE": "http://www.w3.org/2004/02/skos/core#Concept",
+      "prefLabel": "sec-11.1-1934316131",
+      "hiddenLabel": [
+        "11.1"
+      ],
+      "definition": "11.1 De leerlingen beargumenteren hun keuzegedrag bij aankopen rekening houdend met hun behoeften en beïnvloedende factoren."
     }
   ]
 }

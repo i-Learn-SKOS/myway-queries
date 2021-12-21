@@ -20,6 +20,9 @@ See also [this guidance in Dutch](MYWAY_QUERIES.md).
 ### basic.gql
 A basic informative query. Lists all basic information on anything.
 
+### basic-including-hidden-label.gql
+A basic informative query. Lists all basic information plus skos:hiddenLabel on anything.
+
 ### collections.gql
 Lists all known collections.
 

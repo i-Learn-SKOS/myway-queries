@@ -1,0 +1,10 @@
+# In: ID, a concept or a collection
+# Result: basic properties, including hiddenLabel
+{
+  id (_:ID)
+  TYPE @single @optional
+  prefLabel @single
+  altLabel @optional
+  hiddenLabel @optional
+  definition @single @optional
+}

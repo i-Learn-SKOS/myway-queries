@@ -63,6 +63,10 @@
       "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
       "@language": "nl"
     },
+    "hiddenLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+      "@language": "nl"
+    },
     "definition": {
       "@id": "http://www.w3.org/2004/02/skos/core#definition",
       "@language": "nl"
@@ -123,1507 +127,1303 @@
     {
       "related": [
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.1-128411788",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.10-3691661147",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.11-2251481747",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.12-3004955675",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.13-2192582675",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.14-3449946359",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.15-3869742743",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.16-603277467",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.17-4113534366",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-andere-talen-3.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.18-1261223856",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.19-1763515283",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.2-1566228120",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.11",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.3-801170918",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.4-3587121461",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.13",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.5-4078565251",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.14",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.6-859483754",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.15",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.7-2907241791",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.16",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.8-706274265",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.17",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.9-1924602494",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.18",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-1934316131",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.2-183253554",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.3-1539832928",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-2680277097",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.5-2292259010",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.6-1946432625",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.7-3696377455",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.1-156428157",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-burgerschap-en-samenleven-7.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.10-1893151193",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.11-2188436919",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.12-3178827016",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.13-1508549374",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.14-2733767119",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.15-1963907548",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.16-2319521248",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.17-3588354602",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.18-485787450",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.2-3216889722",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-cultureel-bewustzijn-en-culturele-expressie-16.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.3-2706183676",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.4-829291081",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.5-1666734899",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.6-946303327",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.7-1601763430",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.8-3901135318",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.9-903961428",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-4.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.1-2724819294",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.2-3790467741",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.3-680199775",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.4-3382287285",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.1-1583452003",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.10-4206691557",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-digitale-competenties-en-mediawijsheid-bg-4.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.2-434007484",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.3-297658173",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-15.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.4-3580639926",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.37",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.5-320453990",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.38",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.6-341901450",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.41",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.7-3256151243",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-6.50",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.8-2087687018",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-7.11",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.9-2332137488",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-7.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.1-2845304355",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-duurzaamheid-9.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.10-848500674",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.11-2097310820",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.12-3571098637",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.13-2068001612",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.2-20710755",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.3-2666766630",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.4-1829515932",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-11.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.5-3109652119",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.6-645610460",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.7-2768835509",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-economisch-financiele-competenties-bg-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.8-1060621424",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.9-1572718812",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.1-2845304355",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.10-4234509297",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.2-1695774186",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.3-1620863661",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.4-2763685411",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.5-645610460",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.6-1060621424",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-historisch-bewustzijn-8.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.7-3619674597",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.8-1363684606",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.9-380484548",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.1-274178334",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-11.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.2-3122119615",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.3-459762775",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.16",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.4-3697484725",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.17",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.5-1614210418",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.18",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.6-2171482538",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-juridische-competenties-7.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.7-75269931",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.1-454026520",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.2-3417970091",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.11",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.3-3635573952",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.4-3152607923",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.13",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.5-3940081424",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.14",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.1-426559028",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.15",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.10-1688561190",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.16",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.11-4101412501",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.17",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.12-3097624171",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.18",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.13-2067726749",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.14-4154236778",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.15-2070672270",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.16-1632573610",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.17-1504003452",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.18-3582684071",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.19-4008269403",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.2-1576084039",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-13.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.20-3954031424",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.21-863546138",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.22-645342155",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.23-4050551020",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-leercompetenties-bg-13.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.24-2924911808",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.25-2378715300",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.26-3493729956",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.11",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.27-379908337",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.28-1618336080",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.13",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.29-3982271061",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.14",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.3-505820677",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.15",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.30-1290291102",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.16",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.31-171973724",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.17",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.32-3418110391",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.18",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.33-503023626",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.19",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.34-520858228",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.35-3365722356",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.36-2740391560",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.37-2236765753",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.38-3254181495",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.39-883025746",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.4-3814687994",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.40-1387647603",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-lichamelijk-geestelijk-en-emotioneel-welzijn-1.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.41-3312041659",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.42-3047090395",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.43-620763586",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.11",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.44-3235056087",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.45-4030301420",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.13",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.46-1973880997",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.47-871427688",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.48-3602309596",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.49-3684322202",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.5-4210752037",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.50-3170474982",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.51-4030982083",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.6-1349968691",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-2.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.7-381626361",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-bg-2.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.8-4093581727",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-bg-2.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.9-2103459315",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-bg-2.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.1-4122266280",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.10-2365195760",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.11-1223351942",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.11",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.12-1894447322",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.13-4209228353",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.13",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.14-3884972116",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.14",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.15-2981784602",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.16-148744069",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.17-3301302652",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.18-2215290226",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.2-3813952046",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.3-2081111273",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.4-48972604",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.5-3203140184",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-nederlands-ud-2.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.6-627479768",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.7-301818255",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.8-1645145514",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.9-2564755484",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ondernemingszin-15.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.1-401968564",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.2-331395839",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.3-3885425435",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.4-3285768175",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.5-604027848",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.6-3767876250",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.6",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.7-4145383914",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.7",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.8-3516702926",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.8",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.9-337208637",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-ruimtelijk-bewustzijn-9.9",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.1-2128234384",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.2-1594861620",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.3-3481273443",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.4-3359556991",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.5-3689735171",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-sociaal-relationele-vorming-5.5",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.6-1897743837",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.1",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.7-2996035194",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.10",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.8-3003348792",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.11",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.9-1559800223",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.12",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-11.1-3829669666",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.13",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-11.2-1179796564",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.14",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-11.3-2974715638",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.15",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-13.1-2348764845",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.16",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-13.2-1124128433",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.17",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-13.3-822403114",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.18",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-13.4-3336540627",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.19",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-2.1-81916493",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.2",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-2.2-21062001",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.20",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-2.3-2320099471",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.21",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-4.1-2450819104",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.22",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-4.2-1186363695",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.23",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-4.3-8225617",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.24",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-4.4-271485933",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.25",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-4.5-2006898484",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.26",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-4.6-395721977",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.27",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-6.1-1659017432",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.28",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-6.2-520191195",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.29",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-6.3-51479915",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.3",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-6.4-3735138043",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.30",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-6.5-3715663252",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.31",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-6.6-2800946727",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.32",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-bg-6.7-45641153",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.33",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.1-2845304355",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.34",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.10-353896391",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.35",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.11-848500674",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.36",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.12-2097310820",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.37",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.13-3571098637",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.38",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.14-2068001612",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.39",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.2-20710755",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.3-2666766630",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.40",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.4-1829515932",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.41",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.5-3109652119",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.42",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.6-645610460",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.43",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.7-2768835509",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.44",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.8-1060621424",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
         },
         {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.45",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.46",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.47",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.48",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.49",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.5",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.50",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.51",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.6",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.7",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.8",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-6.9",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.3",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.4",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.5",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.6",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-stem-bg-6.7",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.15",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.16",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.17",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.18",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-1.19",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.14",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.15",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.16",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-13.2",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.10",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.7",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.8",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-16.9",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-5.1",
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
-          ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-gr1-astroom-zelfbewustzijn-5.4",
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-ud-2.9-1572718812",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
           ]
