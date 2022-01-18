@@ -183,26 +183,6 @@
               "prefLabel": "studiedomeinen"
             }
           ]
-        },
-        {
-          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3",
-          "prefLabel": "3e graad - 3e leerjaar",
-          "altLabel": [
-            "derde graad, derde leerjaar"
-          ],
-          "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
-          ],
-          "hasCurriculum": [
-            {
-              "id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
-              "prefLabel": "sleutelcompetenties"
-            },
-            {
-              "id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen",
-              "prefLabel": "studiedomeinen"
-            }
-          ]
         }
       ]
     }

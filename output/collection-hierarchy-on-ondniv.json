@@ -204,10 +204,15 @@
               ]
             }
           ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/basis-bulo",
+          "prefLabel": "buitengewoon lager onderwijs"
         }
       ]
     },
     {
+      "topConceptOf": "http://ilearn.ilabt.imec.be/vocab/ondniv/_scheme",
       "narrower": [
         {
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1",
@@ -331,52 +336,15 @@
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3",
           "prefLabel": "3e graad"
-        },
-        {
-          "altLabel": [
-            "derde graad, derde leerjaar"
-          ],
-          "narrower": [
-            {
-              "prefLabel": "finaliteit arbeidsmarkt",
-              "narrower": [
-                {
-                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt-bso",
-                  "prefLabel": "bso"
-                },
-                {
-                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt-kso",
-                  "prefLabel": "kso"
-                },
-                {
-                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt-tso",
-                  "prefLabel": "tso"
-                }
-              ],
-              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-arbeidsmarkt"
-            },
-            {
-              "prefLabel": "finaliteit doorstroom",
-              "narrower": [
-                {
-                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-doorstroom-aso",
-                  "prefLabel": "aso"
-                },
-                {
-                  "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-doorstroom-kso",
-                  "prefLabel": "kso"
-                }
-              ],
-              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3-doorstroom"
-            }
-          ],
-          "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3lj3",
-          "prefLabel": "3e graad - 3e leerjaar"
         }
       ],
-      "topConceptOf": "http://ilearn.ilabt.imec.be/vocab/ondniv/_scheme",
       "prefLabel": "secundair onderwijs",
       "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/buso",
+      "topConceptOf": "http://ilearn.ilabt.imec.be/vocab/ondniv/_scheme",
+      "prefLabel": "buitengewoon secundair onderwijs"
     }
   ]
 }
