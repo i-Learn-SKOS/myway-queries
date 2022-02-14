@@ -4,9 +4,6 @@
     "TYPE": {
       "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
     },
-    "BEROEPSKWALIFICATIES": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
-    },
     "BOUWSTENEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
     },
@@ -28,9 +25,6 @@
     "SLEUTELCOMPETENTIES": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
     },
-    "STUDIEDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
-    },
     "SUBDOMEINEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
     },
@@ -42,9 +36,6 @@
     },
     "VAKKEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
-    },
-    "WETENSCHAPSDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
     },
     "ConceptScheme": {
       "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -125,7 +116,7 @@
   },
   "@graph": [
     {
-      "prefLabel": "geld en consumptie",
+      "prefLabel": "geld en budget",
       "definition": "Inzicht ontwikkelen in consumptiegedrag, inkomensverwerving en financiële producten om budgettaire gevolgen op korte en lange termijn in te schatten.",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",

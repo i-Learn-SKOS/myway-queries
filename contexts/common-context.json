@@ -2,7 +2,6 @@
   "id": "@id",
 
   "TYPE": {"@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"},
-  "BEROEPSKWALIFICATIES": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"},
   "BOUWSTENEN": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"},
   "LAGER_ONDERWIJS": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"},
   "LEERGEBIEDEN": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"},
@@ -10,12 +9,10 @@
   "ONDERWIJSNIVEAUS": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"},
   "SECUNDAIR_ONDERWIJS": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"},
   "SLEUTELCOMPETENTIES": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"},
-  "STUDIEDOMEINEN": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"},
   "SUBDOMEINEN": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"},
   "THEMAS": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/themas"},
   "TREFWOORDEN": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"},
   "VAKKEN": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/vakken"},
-  "WETENSCHAPSDOMEINEN": {"@id":  "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"},
 
   "ConceptScheme": {"@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"},
   "Collection": {"@id": "http://www.w3.org/2004/02/skos/core#Collection"},

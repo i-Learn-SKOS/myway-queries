@@ -32,13 +32,15 @@
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-astroom",
       "memberOf": [
-        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
       ]
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-bstroom",
       "memberOf": [
-        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
       ]
     }
   ]

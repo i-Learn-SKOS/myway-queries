@@ -4,9 +4,6 @@
     "TYPE": {
       "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
     },
-    "BEROEPSKWALIFICATIES": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
-    },
     "BOUWSTENEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
     },
@@ -28,9 +25,6 @@
     "SLEUTELCOMPETENTIES": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
     },
-    "STUDIEDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
-    },
     "SUBDOMEINEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
     },
@@ -42,9 +36,6 @@
     },
     "VAKKEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
-    },
-    "WETENSCHAPSDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
     },
     "ConceptScheme": {
       "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -125,10 +116,6 @@
   },
   "@graph": [
     {
-      "id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties",
-      "prefLabel": "beroepskwalificaties"
-    },
-    {
       "id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
       "prefLabel": "bouwstenen"
     },
@@ -137,20 +124,12 @@
       "prefLabel": "sleutelcompetenties"
     },
     {
-      "id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen",
-      "prefLabel": "studiedomeinen"
-    },
-    {
       "id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden",
       "prefLabel": "trefwoorden"
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken",
       "prefLabel": "vakken"
-    },
-    {
-      "id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen",
-      "prefLabel": "wetenschapsdomeinen"
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs",
@@ -174,11 +153,31 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
-      "prefLabel": "onderwijsniveaus"
+      "prefLabel": "onderwijsstructuur"
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel",
       "prefLabel": "onderwijsdoelen"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit",
+      "prefLabel": "stroom of finaliteit"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-graad",
+      "prefLabel": "jaar of graad"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-niveau",
+      "prefLabel": "onderwijsniveau"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-onderwijsvorm",
+      "prefLabel": "onderwijsvorm"
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-subniveau",
+      "prefLabel": "onderwijssubniveau"
     }
   ]
 }

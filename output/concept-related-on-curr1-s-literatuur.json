@@ -4,9 +4,6 @@
     "TYPE": {
       "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
     },
-    "BEROEPSKWALIFICATIES": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
-    },
     "BOUWSTENEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
     },
@@ -28,9 +25,6 @@
     "SLEUTELCOMPETENTIES": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
     },
-    "STUDIEDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
-    },
     "SUBDOMEINEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
     },
@@ -42,9 +36,6 @@
     },
     "VAKKEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
-    },
-    "WETENSCHAPSDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
     },
     "ConceptScheme": {
       "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -134,7 +125,7 @@
       "related": [
         {
           "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-digitale-competenties-en-mediawijsheid",
-          "prefLabel": "digitale competenties en mediawijsheid",
+          "prefLabel": "digitale competenties",
           "definition": "4. Digitale competentie en mediawijsheid",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -153,9 +144,6 @@
         {
           "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ondernemingszin",
           "prefLabel": "ondernemingszin",
-          "altLabel": [
-            "ondernemen"
-          ],
           "definition": "15. Ontwikkeling van initiatief, ambitie, ondernemingszin en loopbaancompetenties",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -164,7 +152,7 @@
         },
         {
           "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-sociaal-relationele-vorming",
-          "prefLabel": "sociaal-relationele vorming",
+          "prefLabel": "sociaal-relationele competenties",
           "definition": "5. Sociaal-relationele competenties",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",

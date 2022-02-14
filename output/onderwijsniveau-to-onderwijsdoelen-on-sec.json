@@ -4,9 +4,6 @@
     "TYPE": {
       "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
     },
-    "BEROEPSKWALIFICATIES": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
-    },
     "BOUWSTENEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
     },
@@ -28,9 +25,6 @@
     "SLEUTELCOMPETENTIES": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
     },
-    "STUDIEDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
-    },
     "SUBDOMEINEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
     },
@@ -42,9 +36,6 @@
     },
     "VAKKEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
-    },
-    "WETENSCHAPSDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
     },
     "ConceptScheme": {
       "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -1866,7 +1857,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-astroom",
           "prefLabel": "a-stroom"
@@ -3379,7 +3371,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1-bstroom",
           "prefLabel": "b-stroom"
@@ -4516,7 +4509,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-arbeidsmarkt",
           "altLabel": [
@@ -6976,7 +6970,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom",
           "altLabel": [
@@ -8868,7 +8863,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-dubbel",
           "prefLabel": "dubbele finaliteit"
@@ -11909,7 +11905,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-graad"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3",
           "prefLabel": "3e graad"
@@ -13038,7 +13035,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-arbeidsmarkt",
           "prefLabel": "finaliteit arbeidsmarkt"
@@ -14535,7 +14533,8 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-doorstroom",
           "prefLabel": "finaliteit doorstroom"
@@ -15832,14 +15831,16 @@
             }
           ],
           "memberOf": [
-            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+            "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-finaliteit"
           ],
           "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr3-dubbel",
           "prefLabel": "dubbele finaliteit"
         }
       ],
       "memberOf": [
-        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-niveau"
       ],
       "prefLabel": "secundair onderwijs"
     }

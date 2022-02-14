@@ -4,9 +4,6 @@
     "TYPE": {
       "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
     },
-    "BEROEPSKWALIFICATIES": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/beroepskwalificaties"
-    },
     "BOUWSTENEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
     },
@@ -28,9 +25,6 @@
     "SLEUTELCOMPETENTIES": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
     },
-    "STUDIEDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/studiedomeinen"
-    },
     "SUBDOMEINEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
     },
@@ -42,9 +36,6 @@
     },
     "VAKKEN": {
       "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
-    },
-    "WETENSCHAPSDOMEINEN": {
-      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/wetenschapsdomeinen"
     },
     "ConceptScheme": {
       "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -127,9 +118,6 @@
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-andere-talen",
       "prefLabel": "andere talen",
-      "altLabel": [
-        "competenties in andere talen"
-      ],
       "definition": "3. Competenties in andere talen",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -138,7 +126,7 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-burgerschap-en-samenleven",
-      "prefLabel": "burgerschap en samenleven",
+      "prefLabel": "burgerschap",
       "definition": "7. Burgerschapscompetenties met inbegrip van competenties inzake samenleven",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -147,7 +135,7 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-cultureel-bewustzijn-en-culturele-expressie",
-      "prefLabel": "cultureel bewustzijn en culturele expressie",
+      "prefLabel": "cultureel bewustzijn",
       "definition": "16. Cultureel bewustzijn en culturele expressie",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -156,7 +144,7 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-digitale-competenties-en-mediawijsheid",
-      "prefLabel": "digitale competenties en mediawijsheid",
+      "prefLabel": "digitale competenties",
       "definition": "4. Digitale competentie en mediawijsheid",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -174,7 +162,7 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-economisch-financiele-competenties",
-      "prefLabel": "economisch-financiële competenties",
+      "prefLabel": "economische en financiële competenties",
       "definition": "11. Economische en financiële competenties",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -184,9 +172,6 @@
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-historisch-bewustzijn",
       "prefLabel": "historisch bewustzijn",
-      "altLabel": [
-        "geschiedenis"
-      ],
       "definition": "8. Competenties met betrekking tot historisch bewustzijn",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -213,10 +198,7 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-lichamelijk-geestelijk-en-emotioneel-welzijn",
-      "prefLabel": "lichamelijk, geestelijk en emotioneel welzijn",
-      "altLabel": [
-        "lichamelijke en geestelijke gezondheid"
-      ],
+      "prefLabel": "lichamelijke en geestelijke gezondheid",
       "definition": "1. Competenties op het vlak van lichamelijk, geestelijk en emotioneel bewustzijn/gezondheid",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -235,9 +217,6 @@
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ondernemingszin",
       "prefLabel": "ondernemingszin",
-      "altLabel": [
-        "ondernemen"
-      ],
       "definition": "15. Ontwikkeling van initiatief, ambitie, ondernemingszin en loopbaancompetenties",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -256,9 +235,6 @@
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-ruimtelijk-bewustzijn",
       "prefLabel": "ruimtelijk bewustzijn",
-      "altLabel": [
-        "aardrijkskunde"
-      ],
       "definition": "9. Competenties met betrekking tot ruimtelijk bewustzijn",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -267,7 +243,7 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-sociaal-relationele-vorming",
-      "prefLabel": "sociaal-relationele vorming",
+      "prefLabel": "sociaal-relationele competenties",
       "definition": "5. Sociaal-relationele competenties",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -276,10 +252,7 @@
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-stem",
-      "prefLabel": "STEM (sleutelcompetentie)",
-      "altLabel": [
-        "wetenschappen, technologie, engineering, wiskunde"
-      ],
+      "prefLabel": "wiskunde - natuurwetenschappen - technologie - STEM",
       "definition": "6. Competenties inzake wiskunde, exacte wetenschappen en technologie",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",
@@ -289,11 +262,6 @@
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/curr1/c-zelfbewustzijn",
       "prefLabel": "zelfbewustzijn",
-      "altLabel": [
-        "zelfexpressie",
-        "zelfsturing",
-        "zelfwendbaarheid"
-      ],
       "definition": "14. Zelfbewustzijn en zelfexpressie, zelfsturing en wendbaarheid",
       "memberOf": [
         "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties",

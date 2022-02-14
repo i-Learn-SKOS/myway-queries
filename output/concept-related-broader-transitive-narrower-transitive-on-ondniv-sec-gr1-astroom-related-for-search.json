@@ -1306,13 +1306,15 @@
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec",
       "memberOf": [
-        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-niveau"
       ]
     },
     {
       "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr1",
       "memberOf": [
-        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv",
+        "http://ilearn.ilabt.imec.be/vocab/elem/ondniv-graad"
       ]
     }
   ]
