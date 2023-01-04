@@ -1,0 +1,2047 @@
+{
+  "@context": {
+    "id": "@id",
+    "TYPE": {
+      "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "BOUWSTENEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen"
+    },
+    "LAGER_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/lager-onderwijs"
+    },
+    "LEERGEBIEDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/leergebieden"
+    },
+    "ONDERWIJSDOELEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+    },
+    "ONDERWIJSNIVEAUS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/ondniv"
+    },
+    "SECUNDAIR_ONDERWIJS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"
+    },
+    "SLEUTELCOMPETENTIES": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/sleutelcompetenties"
+    },
+    "SUBDOMEINEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/subdomeinen"
+    },
+    "THEMAS": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/themas"
+    },
+    "TREFWOORDEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/trefwoorden"
+    },
+    "VAKKEN": {
+      "@id": "http://ilearn.ilabt.imec.be/vocab/elem/vakken"
+    },
+    "ConceptScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Collection": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Collection"
+    },
+    "Concept": {
+      "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "prefLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#prefLabel",
+      "@language": "nl"
+    },
+    "altLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#altLabel",
+      "@language": "nl"
+    },
+    "hiddenLabel": {
+      "@id": "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+      "@language": "nl"
+    },
+    "definition": {
+      "@id": "http://www.w3.org/2004/02/skos/core#definition",
+      "@language": "nl"
+    },
+    "inScheme": {
+      "@id": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "schemeHas": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "topConceptOf": {
+      "@id": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "hasTopConcept": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#topConceptOf"
+    },
+    "member": {
+      "@id": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "memberOf": {
+      "@reverse": "http://www.w3.org/2004/02/skos/core#member"
+    },
+    "broader": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broader"
+    },
+    "broaderTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#broaderTransitive"
+    },
+    "narrower": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrower"
+    },
+    "narrowerTransitive": {
+      "@id": "http://www.w3.org/2004/02/skos/core#narrowerTransitive"
+    },
+    "related": {
+      "@id": "http://www.w3.org/2004/02/skos/core#related"
+    },
+    "hasCurriculum": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "isCurriculumOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#hasCurriculum"
+    },
+    "typicalAgeRange": {
+      "@id": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "isTypicalAgeRangeOf": {
+      "@reverse": "http://semweb.mmlab.be/ns/ilearn#typicalAgeRange"
+    },
+    "logo": {
+      "@id": "http://xmlns.com/foaf/0.1/logo"
+    },
+    "contentUrl": {
+      "@id": "http://schema.org/contentUrl"
+    }
+  },
+  "@graph": [
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-chemie",
+      "prefLabel": "materie (bouw, structuur, eigenschappen)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.23-4113015027",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.24-3980084298",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.25-112614061",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.26-3031786967",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.27-3698626490",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.28-3161135450",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-biologie",
+      "prefLabel": "levende systemen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.41-225164083",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.42-958210175",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.43-1124891999",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.44-1854474393",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.45-1342319389",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.46-3683661578",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-bronnenkritiek",
+      "prefLabel": "historische bronnenkritiek",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.4-2859589237",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.5-1818199656",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-communicatie",
+      "prefLabel": "communicatie (Nederlands)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.1-3858570909",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.10-2768835509",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.11-1060621424",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.2-1360303133",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.3-20710755",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.4-2666766630",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.5-1829515932",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.6-1347979278",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.7-1191621740",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.8-2600352961",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.9-645610460",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-computers-en-systemen",
+      "prefLabel": "computers en systemen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.4-2836764035",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.5-1353399945",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-democratie-en-mensenrechten",
+      "prefLabel": "democratie en mensenrechten",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.16-4099155857",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.17-3675052845",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.18-469756972",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.19-2151692966",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.20-3059313316",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.21-2913263341",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-dialoog",
+      "prefLabel": "dialoog",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.7-30182697",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.8-64041643",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-digitale-media-en-toepassingen",
+      "prefLabel": "digitale media en toepassingen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.1-2825743367",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.2-4278173204",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.3-366539715",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-diversiteit",
+      "prefLabel": "diversiteit",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.2-3813952046",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.3-2081111273",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.4-111624855",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.5-843726244",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.6-893283537",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-economie",
+      "prefLabel": "algemene economie",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.6-3555068460",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.7-2419292130",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-fysica",
+      "prefLabel": "energie en materie (interacties)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.29-2859093570",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.30-3074324823",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.31-3239895949",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.32-1251998701",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.33-1077881065",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.34-606645426",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.35-382842002",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.36-407277678",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.37-1340818274",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.38-4009558834",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.39-394105862",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.40-1718214648",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-geld-en-consumptie",
+      "prefLabel": "geld en budget",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.1-4176883841",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.2-2605940950",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.3-1910181136",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.4-2875613862",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-gezonde-levensstijl",
+      "prefLabel": "gezonde levensstijl",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.1-1561466412",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.2-3097194767",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.3-242604365",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.4-2812444736",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.5-710743041",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.6-3997515455",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.7-3304290396",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.8-2483505811",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-historische-beeldvorming",
+      "prefLabel": "historische beeldvorming",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.6-3672698006",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.7-419244616",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-historische-dynamieken",
+      "prefLabel": "verleden en heden",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.10-3414140465",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.8-2236573907",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.9-785417731",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-historische-tijdlijn",
+      "prefLabel": "historisch referentiekader",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.1-3367318261",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.2-4087020010",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-8.3-1684488963",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-identiteit",
+      "prefLabel": "identiteit",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.1-3240984483",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-informatie-verwerven",
+      "prefLabel": "informatie verwerven en verwerken",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.10-2184349076",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.3-3180026350",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.4-3227254989",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.5-1850438273",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.6-3728839282",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.7-3364484115",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.8-2742539921",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.9-1012709860",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-keuzes-maken",
+      "prefLabel": "keuzes maken",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.5-3828448188",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.6-386902614",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstbeleving-en-waardering",
+      "prefLabel": "cultuur beleven en waarderen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.5-4004554498",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.6-3153722465",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstconcepten",
+      "prefLabel": "cultuur waarnemen en conceptualiseren",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.1-2435254341",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.2-3194253248",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.3-10840500",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.4-3547331591",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-kunstcreatie",
+      "prefLabel": "artistiek werk creëren",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-16.7-3933884218",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-landschap-en-plaats",
+      "prefLabel": "plaatsbegrip",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.2-1324266564",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-leren-leren",
+      "prefLabel": "reflecteren over leren",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.1-1544908571",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.2-1601848828",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-literatuur",
+      "prefLabel": "literatuur (Nederlands)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.16-387290808",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.17-2530445748",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.18-1296063072",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-maatschappijkritisch-denken",
+      "prefLabel": "duurzaamheid en systeemdenken",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.12-1275011515",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.13-2010640797",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.14-601485857",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mediawijsheid",
+      "prefLabel": "mediawijsheid",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.6-264640604",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.7-385359420",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-4.8-3323066937",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mens-en-leefomgeving",
+      "prefLabel": "mens en aarde (interacties)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.3-4065207604",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.4-1730403276",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.5-3394014822",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.6-2297000864",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-mentaal-welbevinden",
+      "prefLabel": "mentaal welbevinden",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.15-603277467",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.16-347807309",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.17-3881398419",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.18-2758369745",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-ondernemen-en-organisatie",
+      "prefLabel": "onderneming en organisatie",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-11.5-1835018447",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-onderzoeken",
+      "prefLabel": "onderzoeken en probleemoplossen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.11-2663216712",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.12-1900967404",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.13-2950651164",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.14-4217824060",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-opportuniteiten-verkennen",
+      "prefLabel": "opportuniteiten verkennen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.1-1638034401",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-participatie",
+      "prefLabel": "participatie",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.10-3556528570",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.11-2069328846",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.9-1965362034",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-politiek",
+      "prefLabel": "democratische besluitvorming",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-7.15-724729133",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-reguleren",
+      "prefLabel": "reguleren van het leren",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.15-3129832874",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.16-638349652",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.17-3854826859",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-relaties",
+      "prefLabel": "relaties",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.1-454026520",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.2-1156702657",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.3-876928632",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.4-2843883125",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.5-2937599691",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-5.6-1578431219",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-ruimte-en-tijd",
+      "prefLabel": "situeren in ruimte en tijd",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.1-2589386782",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-ruimtelijk-onderzoek",
+      "prefLabel": "geografische methoden en technieken",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.7-3066740578",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-9.8-3794536011",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-samenwerken",
+      "prefLabel": "samenleren",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.18-2416694711",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-sport-en-beweging",
+      "prefLabel": "sport en beweging",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.10-2055836180",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.11-1335941691",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.12-2470245608",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.9-2251481747",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-stem-onderzoek",
+      "prefLabel": "multi- en interdisciplinaire STEM-vaardigheden",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.47-1866874566",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.48-1408833452",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.49-1741261119",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.50-3988384702",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.51-2350864403",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.52-1423413976",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.53-1461280977",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.54-898439111",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.55-1027412927",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.56-2248191429",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.57-3521371261",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-taal-en-cultuur",
+      "prefLabel": "taal en cultuur (Nederlands)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.14-2097310820",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.15-3571098637",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.16-387290808",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-taalsysteem",
+      "prefLabel": "taalsysteem (Nederlands)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.12-1888831538",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-2.13-848500674",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-uitvoeringsanalyse",
+      "prefLabel": "uitvoeringsanalyse",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.2-2748380465",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.3-638366304",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-15.4-3922448705",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-vaktaal",
+      "prefLabel": "vaktaal",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-13.19-2747202084",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-veiligheid",
+      "prefLabel": "veilige levensstijl",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.13-3611215875",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-1.14-3449946359",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-algebra-analyse",
+      "prefLabel": "algebra, analyse en discrete structuren",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.10-932214848",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.11-1460921484",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.12-2149242169",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.13-1655852432",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.14-3724271282",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.15-3606274423",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.16-3539080022",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.17-3115752985",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.6-3833342354",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.7-937497148",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.8-3510159241",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.9-1020254764",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-getallenleer",
+      "prefLabel": "getallenleer",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.1-3305834229",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-kansrekenen-statistiek",
+      "prefLabel": "kansrekenen, statistiek",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.18-1299106135",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.19-2922849853",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-meetkunde-en-metend-rekenen",
+      "prefLabel": "meetkunde en metend rekenen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.2-144643581",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.3-797847329",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.4-2438048382",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.5-2410871193",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-modelleren-en-heuristiek",
+      "prefLabel": "modelleren en problemen oplossen",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.22-893310338",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-wiskunde-redeneren",
+      "prefLabel": "redeneren en abstraheren",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.20-3136583965",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-6.21-2875060543",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-communicatie",
+      "prefLabel": "communicatie (andere talen)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.1-3858570909",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.2-1360303133",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.3-3902850486",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.4-1695774186",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.5-1620863661",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.6-2763685411",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.7-645610460",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.8-1060621424",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-literatuur",
+      "prefLabel": "literatuur (andere talen)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.13-1785881992",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-taal-en-cultuur",
+      "prefLabel": "taal en cultuur (andere talen)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.11-3205086572",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.12-3404963501",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-1-taalsysteem",
+      "prefLabel": "taalsysteem (andere talen)",
+      "related": [
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.10-1363684606",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        },
+        {
+          "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/sec-3.9-3023234037",
+          "related": [
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/ondniv/sec-gr2-doorstroom"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

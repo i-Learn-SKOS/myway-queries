@@ -1,0 +1,16 @@
+# In: ID, a concept in the collection "onderwijsvorm" or "finaliteit of stroom"
+# Result: bouwstenen related to onderwijsdoelen related to the concept
+# i.e. part 1 of the bouwstenen relevant for ID
+{
+  id @single
+  prefLabel @single
+  memberOf(_:BOUWSTENEN)
+  related {
+    id @single
+    memberOf(_:ONDERWIJSDOELEN)
+    related {
+      id(_:ID)
+    }
+  }
+}
+

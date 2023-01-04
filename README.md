@@ -64,6 +64,9 @@ These collections might be connected to the concept, its broader (transitive) co
 For a given onderwijsniveau, retrieve related onderwijsdoelen.
 These onderwijsdoelen might be related to the onderwijsniveau, its broader (transitive) onderwijsniveaus or its narrower (transitive) onderwijsniveaus.
 
+### question-*.gql
+Queries added upon MyWay developers' questions.
+
 ## Advised sequences
 
 - top-down: onderwijsniveau-to-curriculum-collection.gql --> collection-members-and-narrower.gql --> concept-related[x].gql

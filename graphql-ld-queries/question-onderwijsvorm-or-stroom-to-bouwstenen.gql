@@ -1,0 +1,28 @@
+# In: ID, a concept in the collection "onderwijsvorm" or "finaliteit of stroom"
+# Result: bouwstenen related to onderwijsdoelen related to the concept or its broader transitive concepts
+# i.e. bouwstenen relevant for ID
+{
+  id(_:ID) @single
+  related @optional {
+     memberOf(_:ONDERWIJSDOELEN)
+     id @single
+     related {
+       id @single
+       prefLabel @single
+       memberOf(_:BOUWSTENEN)
+     }
+  }
+  broaderTransitive @optional {
+    id @single
+    related {
+       memberOf(_:ONDERWIJSDOELEN)
+       id @single
+       related {
+         id @single
+         prefLabel @single
+         memberOf(_:BOUWSTENEN)
+       }
+    }
+  }
+}
+

@@ -779,7 +779,7 @@
         },
         {
           "id": "http://ilearn.ilabt.imec.be/vocab/curr1/s-filosofie",
-          "prefLabel": "filosofie (bouwsteen)",
+          "prefLabel": "filosofie",
           "memberOf": [
             "http://ilearn.ilabt.imec.be/vocab/elem/bouwstenen",
             "http://ilearn.ilabt.imec.be/vocab/elem/secundair-onderwijs"

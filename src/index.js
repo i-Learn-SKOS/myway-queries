@@ -274,4 +274,34 @@ function collectRelatedForSearch(result, id, outputFile) {
       ID: `${prefices.ondniv}basis-lager-lj5`
     });
 
+  await runQuery("question-onderwijsvorm-or-stroom-to-bouwstenen", "-on-sec-gr2-doorstroom-aso",
+    {
+      ID: `${prefices.ondniv}sec-gr2-doorstroom-aso`
+    });
+
+  await runQuery("question-onderwijsvorm-or-stroom-to-bouwstenen", "-on-sec-gr2-doorstroom",
+    {
+      ID: `${prefices.ondniv}sec-gr2-doorstroom`
+    });
+
+  await runQuery("question-onderwijsvorm-or-stroom-to-bouwstenen-alt-part1", "-on-sec-gr2-doorstroom-aso",
+    {
+      ID: `${prefices.ondniv}sec-gr2-doorstroom-aso`
+    });
+
+  await runQuery("question-onderwijsvorm-or-stroom-to-bouwstenen-alt-part2", "-on-sec-gr2-doorstroom-aso",
+    {
+      ID: `${prefices.ondniv}sec-gr2-doorstroom-aso`
+    });
+
+  await runQuery("question-onderwijsvorm-or-stroom-to-bouwstenen-alt-part1", "-on-sec-gr2-doorstroom",
+    {
+      ID: `${prefices.ondniv}sec-gr2-doorstroom`
+    });
+
+  await runQuery("question-onderwijsvorm-or-stroom-to-bouwstenen-alt-part2", "-on-sec-gr2-doorstroom",
+    {
+      ID: `${prefices.ondniv}sec-gr2-doorstroom`
+    });
+
 })();

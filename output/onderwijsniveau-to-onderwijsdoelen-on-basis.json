@@ -437,7 +437,7 @@
               "memberOf": [
                 "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
               ],
-              "definition": "1.19 De leerlingen kunnen de delers van een natuurlijk getal (=100) vinden; zij kunnen van twee dergelijke getallen de (grootste) gemeenschappelijke deler(s) vinden."
+              "definition": "1.19 De leerlingen kunnen de delers van een natuurlijk getal (≤100) vinden; zij kunnen van twee dergelijke getallen de (grootste) gemeenschappelijke deler(s) vinden."
             },
             {
               "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-1.19-699323849",
@@ -517,7 +517,7 @@
               "memberOf": [
                 "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
               ],
-              "definition": "1.20 De leerlingen kunnen de veelvouden van een natuurlijk getal (<20) vinden, zij kunnen van twee dergelijke getallen het (kleinste) gemeenschappelijk veelvoud vinden."
+              "definition": "1.20 De leerlingen kunnen de veelvouden van een natuurlijk getal (≤20) vinden, zij kunnen van twee dergelijke getallen het (kleinste) gemeenschappelijk veelvoud vinden."
             },
             {
               "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-1.20-857915630",
@@ -2766,6 +2766,14 @@
                 "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
               ],
               "definition": "9 De leerlingen passen indien nodig volgende strategieën toe:\n-zich blijven concentreren ondanks het feit dat ze niet alles begrijpen;\n-het leesdoel bepalen;\n-gebruik maken van ondersteunend visueel en auditief materiaal;\n-hypothesen vormen over de inhoud van de tekst\n-de vermoedelijke betekenis van transparante woorden afleiden;\n-de vermoedelijke betekenis van onbekende woorden afleiden uit de context;\n-herlezen wat onduidelijk is;\n-een woordenlijst of een woordenboek raadplegen.\nIn teksten met de volgende kenmerken\n\nOnderwerp\n-concreet\n-eigen leefwereld en dagelijks leven\n\nTaalgebruikssituatie\n-concrete en voor de leerlingen vertrouwde, relevante taalgebruikssituaties\n-meestal met visuele ondersteuning\n-tot hen of tot hun leeftijdsgroep gericht\n\nStructuur/samenhang/lengte\n-korte enkelvoudige en eenvoudig samengestelde zinnen met de meest frequente voegwoorden\n-elementaire tekststructuur\n-korte teksten\n-met expliciete informatie\n-ook met redundante informatie\n\nWoordenschat en taalvariëteit\n-frequente woorden\n-eenduidig in de context\n-standaardtaal\n-informeel en formeel"
+            },
+            {
+              "id": "http://ilearn.ilabt.imec.be/vocab/onddoel/basis-lager-0-531868484",
+              "prefLabel": "basis-lager-0-531868484",
+              "memberOf": [
+                "http://ilearn.ilabt.imec.be/vocab/elem/onddoel"
+              ],
+              "definition": "0 Geen eindterm (lager onderwijs)"
             }
           ],
           "memberOf": [
